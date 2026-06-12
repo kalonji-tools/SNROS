@@ -66,3 +66,17 @@ A persistent knowledge graph of the codebase lives in `graphify-out/` (tracked i
 # Explain a node
 /graphify explain "dendritic.nix"
 ```
+
+## Agent skills
+
+### Issue tracker
+
+GitHub Issues on `kalonji-tools/SNROS`. See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+Default label vocabulary (needs-triage, needs-info, ready-for-agent, ready-for-human, wontfix). See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+Single-context layout — `CONTEXT.md` + `docs/adr/` at root. See `docs/agents/domain.md`.
