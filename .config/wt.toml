@@ -1,0 +1,5 @@
+# Reload direnv when switching worktrees
+post-switch = "direnv reload"
+
+# Run prek checks before merging
+pre-merge = "nix develop -c prek run --all-files"
