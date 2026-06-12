@@ -45,3 +45,24 @@ nix run .#write-flake
 - `modules/hosts.nix` — host and user entity declarations
 - `modules/<hostname>.nix` — host aspects
 - `modules/<username>.nix` — user aspects
+
+## Graphify
+
+A persistent knowledge graph of the codebase lives in `graphify-out/` (tracked in git). Only `cost.json` and `cache/` are gitignored.
+
+```bash
+# Build/rebuild the knowledge graph
+/graphify
+
+# Incremental update (only new/changed files)
+/graphify --update
+
+# Query the graph
+/graphify query "How do host aspects relate to user aspects?"
+
+# Trace a path between concepts
+/graphify path "den.aspects" "nixos"
+
+# Explain a node
+/graphify explain "dendritic.nix"
+```
