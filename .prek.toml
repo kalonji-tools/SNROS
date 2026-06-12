@@ -1,0 +1,16 @@
+[[repos]]
+repo = "local"
+
+[[repos.hooks]]
+id = "nixfmt"
+name = "nixfmt check"
+language = "system"
+entry = "nixfmt --check"
+files = "\\.nix$"
+
+[[repos.hooks]]
+id = "flake-check"
+name = "nix flake check"
+language = "system"
+entry = "nix flake check"
+pass_filenames = false
