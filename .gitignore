@@ -5,3 +5,5 @@ result-*
 .devenv.flake.nix
 .envrc
 docs/superpowers/
+graphify-out/cost.json
+graphify-out/cache/
