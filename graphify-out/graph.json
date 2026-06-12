@@ -4,6 +4,466 @@
   "graph": {},
   "nodes": [
     {
+      "label": "PULL_REQUEST_TEMPLATE.md",
+      "file_type": "document",
+      "source_file": ".github/PULL_REQUEST_TEMPLATE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "github_pull_request_template",
+      "community": 10,
+      "norm_label": "pull_request_template.md"
+    },
+    {
+      "label": "Description",
+      "file_type": "document",
+      "source_file": ".github/PULL_REQUEST_TEMPLATE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "github_pull_request_template_description",
+      "community": 10,
+      "norm_label": "description"
+    },
+    {
+      "label": "Linked Issue",
+      "file_type": "document",
+      "source_file": ".github/PULL_REQUEST_TEMPLATE.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "github_pull_request_template_linked_issue",
+      "community": 10,
+      "norm_label": "linked issue"
+    },
+    {
+      "label": "Checklist",
+      "file_type": "document",
+      "source_file": ".github/PULL_REQUEST_TEMPLATE.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "github_pull_request_template_checklist",
+      "community": 10,
+      "norm_label": "checklist"
+    },
+    {
+      "label": "Breaking Changes",
+      "file_type": "document",
+      "source_file": ".github/PULL_REQUEST_TEMPLATE.md",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "github_pull_request_template_breaking_changes",
+      "community": 10,
+      "norm_label": "breaking changes"
+    },
+    {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude",
+      "community": 2,
+      "norm_label": "claude.md"
+    },
+    {
+      "label": "SNROS",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude_snros",
+      "community": 2,
+      "norm_label": "snros"
+    },
+    {
+      "label": "Architecture",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "claude_architecture",
+      "community": 2,
+      "norm_label": "architecture"
+    },
+    {
+      "label": "Conventions",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "claude_conventions",
+      "community": 2,
+      "norm_label": "conventions"
+    },
+    {
+      "label": "Building",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "claude_building",
+      "community": 2,
+      "norm_label": "building"
+    },
+    {
+      "label": "Structure",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L40",
+      "_origin": "ast",
+      "id": "claude_structure",
+      "community": 2,
+      "norm_label": "structure"
+    },
+    {
+      "label": "Graphify",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L49",
+      "_origin": "ast",
+      "id": "claude_graphify",
+      "community": 2,
+      "norm_label": "graphify"
+    },
+    {
+      "label": "Agent skills",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L79",
+      "_origin": "ast",
+      "id": "claude_agent_skills",
+      "community": 11,
+      "norm_label": "agent skills"
+    },
+    {
+      "label": "Issue tracker",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L81",
+      "_origin": "ast",
+      "id": "claude_issue_tracker",
+      "community": 11,
+      "norm_label": "issue tracker"
+    },
+    {
+      "label": "Triage labels",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L85",
+      "_origin": "ast",
+      "id": "claude_triage_labels",
+      "community": 11,
+      "norm_label": "triage labels"
+    },
+    {
+      "label": "Domain docs",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L89",
+      "_origin": "ast",
+      "id": "claude_domain_docs",
+      "community": 11,
+      "norm_label": "domain docs"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readme",
+      "community": 1,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "SNROS",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readme_snros",
+      "community": 1,
+      "norm_label": "snros"
+    },
+    {
+      "label": "Overview",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "readme_overview",
+      "community": 1,
+      "norm_label": "overview"
+    },
+    {
+      "label": "Getting Started",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "readme_getting_started",
+      "community": 1,
+      "norm_label": "getting started"
+    },
+    {
+      "label": "Prerequisites",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "readme_prerequisites",
+      "community": 1,
+      "norm_label": "prerequisites"
+    },
+    {
+      "label": "Setup",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "readme_setup",
+      "community": 1,
+      "norm_label": "setup"
+    },
+    {
+      "label": "Applying a Host Configuration",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L41",
+      "_origin": "ast",
+      "id": "readme_applying_a_host_configuration",
+      "community": 1,
+      "norm_label": "applying a host configuration"
+    },
+    {
+      "label": "Development",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L49",
+      "_origin": "ast",
+      "id": "readme_development",
+      "community": 1,
+      "norm_label": "development"
+    },
+    {
+      "label": "Hooks",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L53",
+      "_origin": "ast",
+      "id": "readme_hooks",
+      "community": 1,
+      "norm_label": "hooks"
+    },
+    {
+      "label": "Workflow",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L59",
+      "_origin": "ast",
+      "id": "readme_workflow",
+      "community": 1,
+      "norm_label": "workflow"
+    },
+    {
+      "label": "License",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L67",
+      "_origin": "ast",
+      "id": "readme_license",
+      "community": 1,
+      "norm_label": "license"
+    },
+    {
+      "label": "0001-devenv-over-flake-shell.md",
+      "file_type": "document",
+      "source_file": "docs/adr/0001-devenv-over-flake-shell.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "adr_0001_devenv_over_flake_shell",
+      "community": 4,
+      "norm_label": "0001-devenv-over-flake-shell.md"
+    },
+    {
+      "label": "ADR 0001: devenv over flake-native dev shell",
+      "file_type": "document",
+      "source_file": "docs/adr/0001-devenv-over-flake-shell.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "adr_0001_devenv_over_flake_shell_adr_0001_devenv_over_flake_native_dev_shell",
+      "community": 4,
+      "norm_label": "adr 0001: devenv over flake-native dev shell"
+    },
+    {
+      "label": "Status",
+      "file_type": "document",
+      "source_file": "docs/adr/0001-devenv-over-flake-shell.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "adr_0001_devenv_over_flake_shell_status",
+      "community": 4,
+      "norm_label": "status"
+    },
+    {
+      "label": "Context",
+      "file_type": "document",
+      "source_file": "docs/adr/0001-devenv-over-flake-shell.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "adr_0001_devenv_over_flake_shell_context",
+      "community": 4,
+      "norm_label": "context"
+    },
+    {
+      "label": "Decision",
+      "file_type": "document",
+      "source_file": "docs/adr/0001-devenv-over-flake-shell.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "adr_0001_devenv_over_flake_shell_decision",
+      "community": 4,
+      "norm_label": "decision"
+    },
+    {
+      "label": "Consequences",
+      "file_type": "document",
+      "source_file": "docs/adr/0001-devenv-over-flake-shell.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "adr_0001_devenv_over_flake_shell_consequences",
+      "community": 4,
+      "norm_label": "consequences"
+    },
+    {
+      "label": "domain.md",
+      "file_type": "document",
+      "source_file": "docs/agents/domain.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "agents_domain",
+      "community": 8,
+      "norm_label": "domain.md"
+    },
+    {
+      "label": "Domain Docs",
+      "file_type": "document",
+      "source_file": "docs/agents/domain.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "agents_domain_domain_docs",
+      "community": 8,
+      "norm_label": "domain docs"
+    },
+    {
+      "label": "Before exploring, read these",
+      "file_type": "document",
+      "source_file": "docs/agents/domain.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "agents_domain_before_exploring_read_these",
+      "community": 8,
+      "norm_label": "before exploring, read these"
+    },
+    {
+      "label": "File structure",
+      "file_type": "document",
+      "source_file": "docs/agents/domain.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "agents_domain_file_structure",
+      "community": 8,
+      "norm_label": "file structure"
+    },
+    {
+      "label": "Use the glossary's vocabulary",
+      "file_type": "document",
+      "source_file": "docs/agents/domain.md",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "agents_domain_use_the_glossary_s_vocabulary",
+      "community": 8,
+      "norm_label": "use the glossary's vocabulary"
+    },
+    {
+      "label": "Flag ADR conflicts",
+      "file_type": "document",
+      "source_file": "docs/agents/domain.md",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "agents_domain_flag_adr_conflicts",
+      "community": 8,
+      "norm_label": "flag adr conflicts"
+    },
+    {
+      "label": "issue-tracker.md",
+      "file_type": "document",
+      "source_file": "docs/agents/issue-tracker.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "agents_issue_tracker",
+      "community": 9,
+      "norm_label": "issue-tracker.md"
+    },
+    {
+      "label": "Issue tracker: GitHub",
+      "file_type": "document",
+      "source_file": "docs/agents/issue-tracker.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "agents_issue_tracker_issue_tracker_github",
+      "community": 9,
+      "norm_label": "issue tracker: github"
+    },
+    {
+      "label": "Conventions",
+      "file_type": "document",
+      "source_file": "docs/agents/issue-tracker.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "agents_issue_tracker_conventions",
+      "community": 9,
+      "norm_label": "conventions"
+    },
+    {
+      "label": "When a skill says \"publish to the issue tracker\"",
+      "file_type": "document",
+      "source_file": "docs/agents/issue-tracker.md",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "agents_issue_tracker_when_a_skill_says_publish_to_the_issue_tracker",
+      "community": 9,
+      "norm_label": "when a skill says \"publish to the issue tracker\""
+    },
+    {
+      "label": "When a skill says \"fetch the relevant ticket\"",
+      "file_type": "document",
+      "source_file": "docs/agents/issue-tracker.md",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "agents_issue_tracker_when_a_skill_says_fetch_the_relevant_ticket",
+      "community": 9,
+      "norm_label": "when a skill says \"fetch the relevant ticket\""
+    },
+    {
+      "label": "triage-labels.md",
+      "file_type": "document",
+      "source_file": "docs/agents/triage-labels.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "agents_triage_labels",
+      "community": 12,
+      "norm_label": "triage-labels.md"
+    },
+    {
+      "label": "Triage Labels",
+      "file_type": "document",
+      "source_file": "docs/agents/triage-labels.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "agents_triage_labels_triage_labels",
+      "community": 12,
+      "norm_label": "triage labels"
+    },
+    {
       "label": "Check Workflow",
       "file_type": "code",
       "source_file": ".github/workflows/check.yaml",
@@ -12,9 +472,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "workflows_check_check",
-      "community": 4,
-      "norm_label": "check workflow"
+      "community": 3,
+      "norm_label": "check workflow",
+      "id": "workflows_check_check"
     },
     {
       "label": "nix develop",
@@ -25,9 +485,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "workflows_check_nix_develop",
       "community": 3,
-      "norm_label": "nix develop"
+      "norm_label": "nix develop",
+      "id": "workflows_check_nix_develop"
     },
     {
       "label": "prek pre-commit checker",
@@ -38,9 +498,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "workflows_check_prek",
       "community": 3,
-      "norm_label": "prek pre-commit checker"
+      "norm_label": "prek pre-commit checker",
+      "id": "workflows_check_prek"
     },
     {
       "label": "Determinate Systems Nix Installer",
@@ -51,9 +511,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "workflows_check_nix_installer",
-      "community": 4,
-      "norm_label": "determinate systems nix installer"
+      "community": 3,
+      "norm_label": "determinate systems nix installer",
+      "id": "workflows_check_nix_installer"
     },
     {
       "label": "Determinate Systems Magic Nix Cache",
@@ -64,22 +524,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "workflows_check_magic_nix_cache",
-      "community": 4,
-      "norm_label": "determinate systems magic nix cache"
-    },
-    {
-      "label": "SNROS NixOS Configuration",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "1-3",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "claude_snros",
-      "community": 2,
-      "norm_label": "snros nixos configuration"
+      "community": 3,
+      "norm_label": "determinate systems magic nix cache",
+      "id": "workflows_check_magic_nix_cache"
     },
     {
       "label": "Dendritic Pattern",
@@ -91,9 +538,9 @@
       "author": null,
       "contributor": null,
       "rationale": "Every file in modules/ is a top-level flake-parts module, providing aspect-oriented architecture",
-      "id": "claude_dendritic_pattern",
-      "community": 1,
-      "norm_label": "dendritic pattern"
+      "community": 0,
+      "norm_label": "dendritic pattern",
+      "id": "claude_dendritic_pattern"
     },
     {
       "label": "den Framework",
@@ -104,9 +551,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_den_framework",
       "community": 0,
-      "norm_label": "den framework"
+      "norm_label": "den framework",
+      "id": "claude_den_framework"
     },
     {
       "label": "flake-parts",
@@ -117,9 +564,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_flake_parts",
-      "community": 1,
-      "norm_label": "flake-parts"
+      "community": 0,
+      "norm_label": "flake-parts",
+      "id": "claude_flake_parts"
     },
     {
       "label": "import-tree",
@@ -130,9 +577,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_import_tree",
-      "community": 1,
-      "norm_label": "import-tree"
+      "community": 0,
+      "norm_label": "import-tree",
+      "id": "claude_import_tree"
     },
     {
       "label": "nixfmt Formatter",
@@ -143,9 +590,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_nixfmt",
       "community": 2,
-      "norm_label": "nixfmt formatter"
+      "norm_label": "nixfmt formatter",
+      "id": "claude_nixfmt"
     },
     {
       "label": "prek Pre-commit Tool",
@@ -156,9 +603,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_prek",
       "community": 3,
-      "norm_label": "prek pre-commit tool"
+      "norm_label": "prek pre-commit tool",
+      "id": "claude_prek"
     },
     {
       "label": "flake-file",
@@ -169,9 +616,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_flake_file",
       "community": 0,
-      "norm_label": "flake-file"
+      "norm_label": "flake-file",
+      "id": "claude_flake_file"
     },
     {
       "label": "modules/dendritic.nix",
@@ -182,9 +629,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_dendritic_nix",
       "community": 0,
-      "norm_label": "modules/dendritic.nix"
+      "norm_label": "modules/dendritic.nix",
+      "id": "claude_dendritic_nix"
     },
     {
       "label": "modules/defaults.nix",
@@ -195,9 +642,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_defaults_nix",
       "community": 5,
-      "norm_label": "modules/defaults.nix"
+      "norm_label": "modules/defaults.nix",
+      "id": "claude_defaults_nix"
     },
     {
       "label": "modules/hosts.nix",
@@ -208,9 +655,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_hosts_nix",
       "community": 7,
-      "norm_label": "modules/hosts.nix"
+      "norm_label": "modules/hosts.nix",
+      "id": "claude_hosts_nix"
     },
     {
       "label": "modules/flake/",
@@ -221,9 +668,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_flake_dir",
       "community": 6,
-      "norm_label": "modules/flake/"
+      "norm_label": "modules/flake/",
+      "id": "claude_flake_dir"
     },
     {
       "label": "graphify-out Knowledge Graph",
@@ -234,12 +681,452 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_graphify_out",
       "community": 2,
-      "norm_label": "graphify-out knowledge graph"
+      "norm_label": "graphify-out knowledge graph",
+      "id": "claude_graphify_out"
     }
   ],
   "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/PULL_REQUEST_TEMPLATE.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "github_pull_request_template",
+      "target": "github_pull_request_template_breaking_changes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/PULL_REQUEST_TEMPLATE.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "github_pull_request_template",
+      "target": "github_pull_request_template_checklist",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/PULL_REQUEST_TEMPLATE.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "github_pull_request_template",
+      "target": "github_pull_request_template_description",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/PULL_REQUEST_TEMPLATE.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "github_pull_request_template",
+      "target": "github_pull_request_template_linked_issue",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "claude",
+      "target": "claude_snros",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "claude_snros",
+      "target": "claude_agent_skills",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "claude_snros",
+      "target": "claude_architecture",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "claude_snros",
+      "target": "claude_building",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "claude_snros",
+      "target": "claude_conventions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": "7",
+      "weight": 1.0,
+      "source": "claude_snros",
+      "target": "claude_dendritic_pattern"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": "17",
+      "weight": 1.0,
+      "source": "claude_snros",
+      "target": "claude_flake_file"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "claude_snros",
+      "target": "claude_graphify",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": "49",
+      "weight": 1.0,
+      "source": "claude_snros",
+      "target": "claude_graphify_out"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": "15",
+      "weight": 1.0,
+      "source": "claude_snros",
+      "target": "claude_nixfmt"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": "16",
+      "weight": 1.0,
+      "source": "claude_snros",
+      "target": "claude_prek"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "claude_snros",
+      "target": "claude_structure",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L89",
+      "weight": 1.0,
+      "source": "claude_agent_skills",
+      "target": "claude_domain_docs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L81",
+      "weight": 1.0,
+      "source": "claude_agent_skills",
+      "target": "claude_issue_tracker",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L85",
+      "weight": 1.0,
+      "source": "claude_agent_skills",
+      "target": "claude_triage_labels",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "readme_snros",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "readme_snros",
+      "target": "readme_development",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "readme_snros",
+      "target": "readme_getting_started",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "readme_snros",
+      "target": "readme_license",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "readme_snros",
+      "target": "readme_overview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "readme_getting_started",
+      "target": "readme_applying_a_host_configuration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "readme_getting_started",
+      "target": "readme_prerequisites",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "readme_getting_started",
+      "target": "readme_setup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "readme_development",
+      "target": "readme_hooks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "readme_development",
+      "target": "readme_workflow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/adr/0001-devenv-over-flake-shell.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "adr_0001_devenv_over_flake_shell",
+      "target": "adr_0001_devenv_over_flake_shell_adr_0001_devenv_over_flake_native_dev_shell",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/adr/0001-devenv-over-flake-shell.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "adr_0001_devenv_over_flake_shell_adr_0001_devenv_over_flake_native_dev_shell",
+      "target": "adr_0001_devenv_over_flake_shell_consequences",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/adr/0001-devenv-over-flake-shell.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "adr_0001_devenv_over_flake_shell_adr_0001_devenv_over_flake_native_dev_shell",
+      "target": "adr_0001_devenv_over_flake_shell_context",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/adr/0001-devenv-over-flake-shell.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "adr_0001_devenv_over_flake_shell_adr_0001_devenv_over_flake_native_dev_shell",
+      "target": "adr_0001_devenv_over_flake_shell_decision",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/adr/0001-devenv-over-flake-shell.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "adr_0001_devenv_over_flake_shell_adr_0001_devenv_over_flake_native_dev_shell",
+      "target": "adr_0001_devenv_over_flake_shell_status",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/agents/domain.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "agents_domain",
+      "target": "agents_domain_domain_docs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/agents/domain.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "agents_domain_domain_docs",
+      "target": "agents_domain_before_exploring_read_these",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/agents/domain.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "agents_domain_domain_docs",
+      "target": "agents_domain_file_structure",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/agents/domain.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "agents_domain_domain_docs",
+      "target": "agents_domain_flag_adr_conflicts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/agents/domain.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "agents_domain_domain_docs",
+      "target": "agents_domain_use_the_glossary_s_vocabulary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/agents/issue-tracker.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "agents_issue_tracker",
+      "target": "agents_issue_tracker_issue_tracker_github",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/agents/issue-tracker.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "agents_issue_tracker_issue_tracker_github",
+      "target": "agents_issue_tracker_conventions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/agents/issue-tracker.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "agents_issue_tracker_issue_tracker_github",
+      "target": "agents_issue_tracker_when_a_skill_says_fetch_the_relevant_ticket",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/agents/issue-tracker.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "agents_issue_tracker_issue_tracker_github",
+      "target": "agents_issue_tracker_when_a_skill_says_publish_to_the_issue_tracker",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/agents/triage-labels.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "agents_triage_labels",
+      "target": "agents_triage_labels_triage_labels",
+      "confidence_score": 1.0
+    },
     {
       "relation": "references",
       "confidence": "EXTRACTED",
@@ -295,56 +1182,6 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "CLAUDE.md",
-      "source_location": "7",
-      "weight": 1.0,
-      "source": "claude_snros",
-      "target": "claude_dendritic_pattern"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": "17",
-      "weight": 1.0,
-      "source": "claude_snros",
-      "target": "claude_flake_file"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": "49",
-      "weight": 1.0,
-      "source": "claude_snros",
-      "target": "claude_graphify_out"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": "15",
-      "weight": 1.0,
-      "source": "claude_snros",
-      "target": "claude_nixfmt"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": "16",
-      "weight": 1.0,
-      "source": "claude_snros",
-      "target": "claude_prek"
-    },
-    {
-      "relation": "conceptually_related_to",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
       "source_location": "8",
       "weight": 1.0,
       "source": "claude_dendritic_pattern",
@@ -392,5 +1229,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "f7fb72fc83009aa5b238ced26fa99e2758765b82"
+  "built_at_commit": "e60bf2d60de52973651db37a7925ad7d5bb4ede3"
 }
