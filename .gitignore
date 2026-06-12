@@ -1,4 +1,7 @@
 result
 result-*
 .direnv/
+.devenv/
+.devenv.flake.nix
+.envrc
 docs/superpowers/

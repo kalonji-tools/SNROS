@@ -13,7 +13,12 @@ jobs:
     name: prek checks
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: DeterminateSystems/nix-installer-action@main
-      - uses: DeterminateSystems/magic-nix-cache-action@main
-      - run: nix develop -c prek run --all-files
+      - uses: actions/checkout@v5
+      - uses: cachix/install-nix-action@v31
+      - uses: cachix/cachix-action@v16
+        with:
+          name: kalonji-tools
+          authToken: ${{ secrets.CACHIX_AUTH_TOKEN }}
+      - name: Install devenv
+        run: nix profile add nixpkgs#devenv
+      - run: devenv shell -- prek run --all-files
