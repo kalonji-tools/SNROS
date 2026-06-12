@@ -1,3 +1,5 @@
+exclude = "^graphify-out/"
+
 [[repos]]
 repo = "local"
 
