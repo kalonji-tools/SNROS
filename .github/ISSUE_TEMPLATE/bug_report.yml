@@ -1,0 +1,50 @@
+name: Bug Report
+description: File a bug report
+title: "[bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Steps to Reproduce
+      description: Step-by-step instructions to reproduce the behaviour.
+      placeholder: |
+        1. Run `sudo nixos-rebuild switch --flake .#hostname`
+        2. Observe the output / error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behaviour
+      description: What did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behaviour
+      description: What actually happened? Include full error messages and tracebacks.
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Provide your environment details.
+      placeholder: |
+        nixos: 25.05
+        nixpkgs: nixpkgs-unstable (rev abc1234)
+        nix: 2.28.1
+        hostname: myhostname
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Logs, screenshots, or anything else that might help.
