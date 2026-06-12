@@ -25,6 +25,14 @@ entry = "statix check"
 files = "\\.nix$"
 pass_filenames = false
 
+[[repos.hooks]]
+id = "flake-check"
+name = "nix flake check"
+language = "system"
+entry = "nix flake check"
+stages = ["pre-push"]
+pass_filenames = false
+
 [[repos]]
 repo = "builtin"
 hooks = [
