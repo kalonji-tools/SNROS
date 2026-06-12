@@ -48,7 +48,16 @@ nix run .#write-flake
 
 ## Graphify
 
-A persistent knowledge graph of the codebase lives in `graphify-out/` (tracked in git). Only `cost.json` and `cache/` are gitignored.
+A persistent knowledge graph of the codebase lives in `graphify-out/` (tracked in git). Machine-local files (`.graphify_python`, `.graphify_root`) and build artifacts (`cost.json`, `cache/`) are gitignored.
+
+**Two-commit workflow**: The post-commit hook rebuilds the graph in the background. After it completes, manually stage and commit the results:
+
+```bash
+git add graphify-out/
+GRAPHIFY_SKIP_HOOK=1 git commit -m "chore: sync knowledge graph"
+```
+
+Use `GRAPHIFY_SKIP_HOOK=1` to prevent the hook from firing on the graph-only commit.
 
 ```bash
 # Build/rebuild the knowledge graph
