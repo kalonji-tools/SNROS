@@ -24,8 +24,18 @@
     before = [ "devenv:enterShell" ];
   };
 
+  tasks."snros:install-graphify" = {
+    exec = ''
+      uv tool install graphifyy -q 2>/dev/null
+      export PATH="$HOME/.local/bin:$PATH"
+      if git rev-parse --git-dir > /dev/null 2>&1; then
+        graphify hook install 2>/dev/null || true
+      fi
+    '';
+    before = [ "devenv:enterShell" ];
+  };
+
   enterShell = ''
-    uv tool install graphifyy -q 2>/dev/null
     export PATH="$HOME/.local/bin:$PATH"
   '';
 }
