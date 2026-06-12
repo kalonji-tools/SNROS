@@ -9,8 +9,29 @@ entry = "nixfmt --check"
 files = "\\.nix$"
 
 [[repos.hooks]]
-id = "flake-check"
-name = "nix flake check"
+id = "deadnix"
+name = "deadnix"
 language = "system"
-entry = "nix flake check"
+entry = "deadnix --fail"
+files = "\\.nix$"
+
+[[repos.hooks]]
+id = "statix"
+name = "statix check"
+language = "system"
+entry = "statix check"
+files = "\\.nix$"
 pass_filenames = false
+
+[[repos]]
+repo = "builtin"
+hooks = [
+  { id = "trailing-whitespace" },
+  { id = "end-of-file-fixer" },
+  { id = "check-merge-conflict" },
+  { id = "check-added-large-files" },
+  { id = "detect-private-key" },
+  { id = "check-toml" },
+  { id = "check-yaml" },
+  { id = "no-commit-to-branch", args = ["--branch", "main"] },
+]
