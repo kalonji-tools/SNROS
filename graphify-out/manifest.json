@@ -8,5 +8,65 @@
     "mtime": 1781264576.6569457,
     "ast_hash": "1b406a86d8de520192c947e6bf160c16",
     "semantic_hash": "1b406a86d8de520192c947e6bf160c16"
+  },
+  ".github/ISSUE_TEMPLATE/bug_report.yml": {
+    "mtime": 1781294639.0316532,
+    "ast_hash": "e48693d111eb0e39b8e926df08c9d193",
+    "semantic_hash": ""
+  },
+  ".github/ISSUE_TEMPLATE/feature_request.yml": {
+    "mtime": 1781294639.0316532,
+    "ast_hash": "6098388f0812b2f264311e8ff44b4da0",
+    "semantic_hash": ""
+  },
+  ".github/PULL_REQUEST_TEMPLATE.md": {
+    "mtime": 1781294639.0316532,
+    "ast_hash": "51e95b1056f2bd50bc244b87b4a9c702",
+    "semantic_hash": ""
+  },
+  ".github/dependabot.yml": {
+    "mtime": 1781294639.0316532,
+    "ast_hash": "933b2cb56d0e93482703ffd2c367b40f",
+    "semantic_hash": ""
+  },
+  ".github/workflows/check.yaml": {
+    "mtime": 1781294639.0316532,
+    "ast_hash": "3a74b0cef59624a046685dadb9f12932",
+    "semantic_hash": ""
+  },
+  "CLAUDE.md": {
+    "mtime": 1781294849.0348363,
+    "ast_hash": "ea0beb1805216f3e69780d15e386128f",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1781294639.0316532,
+    "ast_hash": "ff7dc9cda31cc323d9fd4f8d55b23c2b",
+    "semantic_hash": ""
+  },
+  "devenv.yaml": {
+    "mtime": 1781294639.0316532,
+    "ast_hash": "8eaae3f53eaaa481bd7a9041c65c1df2",
+    "semantic_hash": ""
+  },
+  "docs/adr/0001-devenv-over-flake-shell.md": {
+    "mtime": 1781294639.0316532,
+    "ast_hash": "354d4c1226c5caba2f3d809f466e695f",
+    "semantic_hash": ""
+  },
+  "docs/agents/domain.md": {
+    "mtime": 1781294639.032653,
+    "ast_hash": "ecf1d2e9aa67449ece2f029bd953ccc6",
+    "semantic_hash": ""
+  },
+  "docs/agents/issue-tracker.md": {
+    "mtime": 1781294639.032653,
+    "ast_hash": "b3268117bb0bb6b731632d35d6a1369a",
+    "semantic_hash": ""
+  },
+  "docs/agents/triage-labels.md": {
+    "mtime": 1781294639.032653,
+    "ast_hash": "22add54cb98451c55b20e6b7992d4a85",
+    "semantic_hash": ""
   }
 }
