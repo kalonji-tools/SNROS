@@ -19,6 +19,8 @@ jobs:
         with:
           name: kalonji-tools
           authToken: ${{ secrets.CACHIX_AUTH_TOKEN }}
+          useDaemon: false
+          extraPullNames: devenv
       - name: Install devenv
         run: nix profile add nixpkgs#devenv
       - run: devenv shell -- prek run --all-files
