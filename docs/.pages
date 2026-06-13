@@ -1,4 +1,5 @@
 nav:
   - Home: index.md
+  - Reference: reference
   - Explanation: explanation
   - How-To Guides: how-to
