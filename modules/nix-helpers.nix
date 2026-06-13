@@ -1,3 +1,4 @@
+{ den, ... }:
 {
   den.aspects.nix-helpers = {
     homeManager =
@@ -7,9 +8,17 @@
           enable = true;
           enableZshIntegration = true;
         };
-        home.packages = [ pkgs.comma ];
+        home.packages = with pkgs; [
+          comma
+          manix
+        ];
       };
-    nixos.programs.command-not-found.enable = false;
+    nixos =
+      { pkgs, ... }:
+      {
+        programs.command-not-found.enable = false;
+        environment.systemPackages = [ pkgs.nh ];
+      };
   };
 
   den.default.includes = [ den.aspects.nix-helpers ];
