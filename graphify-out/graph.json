@@ -824,6 +824,76 @@
       "norm_label": "project links"
     },
     {
+      "label": "nix-helpers.md",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/nix-helpers.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "modules_nix_helpers",
+      "community": 17,
+      "norm_label": "nix-helpers.md"
+    },
+    {
+      "label": "NixOS Helpers",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/nix-helpers.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "modules_nix_helpers_nixos_helpers",
+      "community": 17,
+      "norm_label": "nixos helpers"
+    },
+    {
+      "label": "What it does",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/nix-helpers.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "modules_nix_helpers_what_it_does",
+      "community": 17,
+      "norm_label": "what it does"
+    },
+    {
+      "label": "Den configuration",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/nix-helpers.md",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "modules_nix_helpers_den_configuration",
+      "community": 17,
+      "norm_label": "den configuration"
+    },
+    {
+      "label": "Preservation",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/nix-helpers.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "modules_nix_helpers_preservation",
+      "community": 17,
+      "norm_label": "preservation"
+    },
+    {
+      "label": "Standalone evaluation",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/nix-helpers.md",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "modules_nix_helpers_standalone_evaluation",
+      "community": 17,
+      "norm_label": "standalone evaluation"
+    },
+    {
+      "label": "Post-deploy verification",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/nix-helpers.md",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "modules_nix_helpers_post_deploy_verification",
+      "community": 17,
+      "norm_label": "post-deploy verification"
+    },
+    {
       "label": "Check Workflow",
       "file_type": "code",
       "source_file": ".github/workflows/check.yaml",
@@ -1243,9 +1313,9 @@
       "source_file": "CONTEXT.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "context",
-      "target": "context_snros_domain_glossary",
-      "confidence_score": 1.0
+      "target": "context_snros_domain_glossary"
     },
     {
       "relation": "contains",
@@ -1253,9 +1323,9 @@
       "source_file": "CONTEXT.md",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "context_snros_domain_glossary",
-      "target": "context_shell",
-      "confidence_score": 1.0
+      "target": "context_shell"
     },
     {
       "relation": "contains",
@@ -1263,9 +1333,9 @@
       "source_file": "CONTEXT.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "context_snros_domain_glossary",
-      "target": "context_system_defining_layer",
-      "confidence_score": 1.0
+      "target": "context_system_defining_layer"
     },
     {
       "relation": "contains",
@@ -1273,9 +1343,9 @@
       "source_file": "CONTEXT.md",
       "source_location": "L28",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "context_snros_domain_glossary",
-      "target": "context_terminal",
-      "confidence_score": 1.0
+      "target": "context_terminal"
     },
     {
       "relation": "contains",
@@ -1283,9 +1353,9 @@
       "source_file": "CONTEXT.md",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "context_snros_domain_glossary",
-      "target": "context_theming",
-      "confidence_score": 1.0
+      "target": "context_theming"
     },
     {
       "relation": "contains",
@@ -1293,9 +1363,9 @@
       "source_file": "CONTEXT.md",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "context_snros_domain_glossary",
-      "target": "context_tool_categories",
-      "confidence_score": 1.0
+      "target": "context_tool_categories"
     },
     {
       "relation": "contains",
@@ -1453,9 +1523,9 @@
       "source_file": "docs/adr/0002-preservation-over-impermanence.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "adr_0002_preservation_over_impermanence",
-      "target": "adr_0002_preservation_over_impermanence_adr_0002_preservation_over_impermanence",
-      "confidence_score": 1.0
+      "target": "adr_0002_preservation_over_impermanence_adr_0002_preservation_over_impermanence"
     },
     {
       "relation": "contains",
@@ -1463,9 +1533,9 @@
       "source_file": "docs/adr/0002-preservation-over-impermanence.md",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "adr_0002_preservation_over_impermanence_adr_0002_preservation_over_impermanence",
-      "target": "adr_0002_preservation_over_impermanence_consequences",
-      "confidence_score": 1.0
+      "target": "adr_0002_preservation_over_impermanence_consequences"
     },
     {
       "relation": "contains",
@@ -1473,9 +1543,9 @@
       "source_file": "docs/adr/0002-preservation-over-impermanence.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "adr_0002_preservation_over_impermanence_adr_0002_preservation_over_impermanence",
-      "target": "adr_0002_preservation_over_impermanence_context",
-      "confidence_score": 1.0
+      "target": "adr_0002_preservation_over_impermanence_context"
     },
     {
       "relation": "contains",
@@ -1483,9 +1553,9 @@
       "source_file": "docs/adr/0002-preservation-over-impermanence.md",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "adr_0002_preservation_over_impermanence_adr_0002_preservation_over_impermanence",
-      "target": "adr_0002_preservation_over_impermanence_decision",
-      "confidence_score": 1.0
+      "target": "adr_0002_preservation_over_impermanence_decision"
     },
     {
       "relation": "contains",
@@ -1493,9 +1563,9 @@
       "source_file": "docs/adr/0002-preservation-over-impermanence.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "adr_0002_preservation_over_impermanence_adr_0002_preservation_over_impermanence",
-      "target": "adr_0002_preservation_over_impermanence_status",
-      "confidence_score": 1.0
+      "target": "adr_0002_preservation_over_impermanence_status"
     },
     {
       "relation": "contains",
@@ -1603,9 +1673,9 @@
       "source_file": "docs/explanation/den-patterns.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "explanation_den_patterns",
-      "target": "explanation_den_patterns_den_patterns",
-      "confidence_score": 1.0
+      "target": "explanation_den_patterns_den_patterns"
     },
     {
       "relation": "contains",
@@ -1613,9 +1683,9 @@
       "source_file": "docs/explanation/den-patterns.md",
       "source_location": "L73",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "explanation_den_patterns_den_patterns",
-      "target": "explanation_den_patterns_aspect_tests",
-      "confidence_score": 1.0
+      "target": "explanation_den_patterns_aspect_tests"
     },
     {
       "relation": "contains",
@@ -1623,9 +1693,9 @@
       "source_file": "docs/explanation/den-patterns.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "explanation_den_patterns_den_patterns",
-      "target": "explanation_den_patterns_aspects",
-      "confidence_score": 1.0
+      "target": "explanation_den_patterns_aspects"
     },
     {
       "relation": "contains",
@@ -1633,9 +1703,9 @@
       "source_file": "docs/explanation/den-patterns.md",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "explanation_den_patterns_den_patterns",
-      "target": "explanation_den_patterns_composition",
-      "confidence_score": 1.0
+      "target": "explanation_den_patterns_composition"
     },
     {
       "relation": "contains",
@@ -1643,9 +1713,9 @@
       "source_file": "docs/explanation/den-patterns.md",
       "source_location": "L114",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "explanation_den_patterns_den_patterns",
-      "target": "explanation_den_patterns_key_concepts",
-      "confidence_score": 1.0
+      "target": "explanation_den_patterns_key_concepts"
     },
     {
       "relation": "contains",
@@ -1653,9 +1723,9 @@
       "source_file": "docs/explanation/den-patterns.md",
       "source_location": "L95",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "explanation_den_patterns_den_patterns",
-      "target": "explanation_den_patterns_module_files",
-      "confidence_score": 1.0
+      "target": "explanation_den_patterns_module_files"
     },
     {
       "relation": "contains",
@@ -1663,9 +1733,9 @@
       "source_file": "docs/explanation/den-patterns.md",
       "source_location": "L57",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "explanation_den_patterns_den_patterns",
-      "target": "explanation_den_patterns_standalone_evaluation_with_den_homes",
-      "confidence_score": 1.0
+      "target": "explanation_den_patterns_standalone_evaluation_with_den_homes"
     },
     {
       "relation": "contains",
@@ -1673,9 +1743,9 @@
       "source_file": "docs/how-to/add-a-module.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "how_to_add_a_module",
-      "target": "how_to_add_a_module_add_a_new_module",
-      "confidence_score": 1.0
+      "target": "how_to_add_a_module_add_a_new_module"
     },
     {
       "relation": "contains",
@@ -1683,9 +1753,9 @@
       "source_file": "docs/how-to/add-a-module.md",
       "source_location": "L131",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "how_to_add_a_module",
-      "target": "how_to_add_a_module_commands_to_verify_the_module_works_on_a_live_system",
-      "confidence_score": 1.0
+      "target": "how_to_add_a_module_commands_to_verify_the_module_works_on_a_live_system"
     },
     {
       "relation": "contains",
@@ -1693,9 +1763,9 @@
       "source_file": "docs/how-to/add-a-module.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "how_to_add_a_module_add_a_new_module",
-      "target": "how_to_add_a_module_1_create_the_module_file",
-      "confidence_score": 1.0
+      "target": "how_to_add_a_module_1_create_the_module_file"
     },
     {
       "relation": "contains",
@@ -1703,9 +1773,9 @@
       "source_file": "docs/how-to/add-a-module.md",
       "source_location": "L49",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "how_to_add_a_module_add_a_new_module",
-      "target": "how_to_add_a_module_2_add_aspect_tests",
-      "confidence_score": 1.0
+      "target": "how_to_add_a_module_2_add_aspect_tests"
     },
     {
       "relation": "contains",
@@ -1713,9 +1783,9 @@
       "source_file": "docs/how-to/add-a-module.md",
       "source_location": "L71",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "how_to_add_a_module_add_a_new_module",
-      "target": "how_to_add_a_module_3_format_and_lint",
-      "confidence_score": 1.0
+      "target": "how_to_add_a_module_3_format_and_lint"
     },
     {
       "relation": "contains",
@@ -1723,9 +1793,9 @@
       "source_file": "docs/how-to/add-a-module.md",
       "source_location": "L79",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "how_to_add_a_module_add_a_new_module",
-      "target": "how_to_add_a_module_4_write_the_reference_page",
-      "confidence_score": 1.0
+      "target": "how_to_add_a_module_4_write_the_reference_page"
     },
     {
       "relation": "contains",
@@ -1733,9 +1803,9 @@
       "source_file": "docs/how-to/add-a-module.md",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "how_to_add_a_module_1_create_the_module_file",
-      "target": "how_to_add_a_module_adding_preservation",
-      "confidence_score": 1.0
+      "target": "how_to_add_a_module_adding_preservation"
     },
     {
       "relation": "contains",
@@ -1743,9 +1813,9 @@
       "source_file": "docs/how-to/add-a-module.md",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "how_to_add_a_module_1_create_the_module_file",
-      "target": "how_to_add_a_module_choosing_the_right_scope",
-      "confidence_score": 1.0
+      "target": "how_to_add_a_module_choosing_the_right_scope"
     },
     {
       "relation": "contains",
@@ -1753,9 +1823,9 @@
       "source_file": "docs/how-to/add-a-module.md",
       "source_location": "L159",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "how_to_add_a_module_commands_to_verify_the_module_works_on_a_live_system",
-      "target": "how_to_add_a_module_5_run_all_checks",
-      "confidence_score": 1.0
+      "target": "how_to_add_a_module_5_run_all_checks"
     },
     {
       "relation": "contains",
@@ -1763,9 +1833,9 @@
       "source_file": "docs/how-to/add-a-module.md",
       "source_location": "L167",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "how_to_add_a_module_commands_to_verify_the_module_works_on_a_live_system",
-      "target": "how_to_add_a_module_6_commit_everything_together",
-      "confidence_score": 1.0
+      "target": "how_to_add_a_module_6_commit_everything_together"
     },
     {
       "relation": "contains",
@@ -1773,9 +1843,9 @@
       "source_file": "docs/index.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_index",
-      "target": "docs_index_snros",
-      "confidence_score": 1.0
+      "target": "docs_index_snros"
     },
     {
       "relation": "contains",
@@ -1783,9 +1853,9 @@
       "source_file": "docs/index.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_index_snros",
-      "target": "docs_index_documentation",
-      "confidence_score": 1.0
+      "target": "docs_index_documentation"
     },
     {
       "relation": "contains",
@@ -1793,8 +1863,68 @@
       "source_file": "docs/index.md",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_index_snros",
-      "target": "docs_index_project_links",
+      "target": "docs_index_project_links"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/modules/nix-helpers.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "modules_nix_helpers",
+      "target": "modules_nix_helpers_nixos_helpers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/modules/nix-helpers.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "modules_nix_helpers_nixos_helpers",
+      "target": "modules_nix_helpers_den_configuration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/modules/nix-helpers.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "modules_nix_helpers_nixos_helpers",
+      "target": "modules_nix_helpers_post_deploy_verification",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/modules/nix-helpers.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "modules_nix_helpers_nixos_helpers",
+      "target": "modules_nix_helpers_preservation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/modules/nix-helpers.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "modules_nix_helpers_nixos_helpers",
+      "target": "modules_nix_helpers_standalone_evaluation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/modules/nix-helpers.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "modules_nix_helpers_nixos_helpers",
+      "target": "modules_nix_helpers_what_it_does",
       "confidence_score": 1.0
     },
     {
@@ -1899,5 +2029,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "cde7792fb98b815639d5655049183294d6193d55"
+  "built_at_commit": "b637abe9cb2423b2ffd5742ae94a08cd81d539da"
 }
