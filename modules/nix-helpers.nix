@@ -29,6 +29,16 @@
           ];
         };
       };
+    tests = { nix-helpers, ... }: {
+      nix-helpers-has-homeManager = {
+        expr = nix-helpers ? homeManager;
+        expected = true;
+      };
+      nix-helpers-has-nixos = {
+        expr = nix-helpers ? nixos;
+        expected = true;
+      };
+    };
   };
 
   den.default.includes = [ den.aspects.nix-helpers ];
