@@ -39,6 +39,21 @@ den.aspects.shell-ecosystem = {
 
 Each included aspect is resolved independently and merged. This keeps individual aspects focused while allowing higher-level groupings.
 
+`provides` declares reusable sub-aspects within an aspect, which can then be selectively included:
+
+```nix
+den.aspects.nvf = {
+  provides.keys.vim.keymaps = [ /* ... */ ];
+  provides.leader.vim.globals.mapleader = " ";
+  includes = with den.aspects.nvf.provides; [
+    keys
+    leader
+  ];
+};
+```
+
+This lets consumers of an aspect opt in to only the sub-aspects they need, rather than pulling in everything.
+
 ## Standalone Evaluation with `den.homes`
 
 Aspects applied via `den.default` are evaluated when a host or home is declared. To test home-manager config without a full NixOS host, use `den.homes`:
