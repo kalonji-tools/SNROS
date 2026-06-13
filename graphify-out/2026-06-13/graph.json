@@ -164,76 +164,6 @@
       "norm_label": "domain docs"
     },
     {
-      "label": "CONTEXT.md",
-      "file_type": "document",
-      "source_file": "CONTEXT.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "context",
-      "community": 14,
-      "norm_label": "context.md"
-    },
-    {
-      "label": "SNROS Domain Glossary",
-      "file_type": "document",
-      "source_file": "CONTEXT.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "context_snros_domain_glossary",
-      "community": 14,
-      "norm_label": "snros domain glossary"
-    },
-    {
-      "label": "System-Defining Layer",
-      "file_type": "document",
-      "source_file": "CONTEXT.md",
-      "source_location": "L3",
-      "_origin": "ast",
-      "id": "context_system_defining_layer",
-      "community": 14,
-      "norm_label": "system-defining layer"
-    },
-    {
-      "label": "Tool Categories",
-      "file_type": "document",
-      "source_file": "CONTEXT.md",
-      "source_location": "L11",
-      "_origin": "ast",
-      "id": "context_tool_categories",
-      "community": 14,
-      "norm_label": "tool categories"
-    },
-    {
-      "label": "Theming",
-      "file_type": "document",
-      "source_file": "CONTEXT.md",
-      "source_location": "L17",
-      "_origin": "ast",
-      "id": "context_theming",
-      "community": 14,
-      "norm_label": "theming"
-    },
-    {
-      "label": "Shell",
-      "file_type": "document",
-      "source_file": "CONTEXT.md",
-      "source_location": "L22",
-      "_origin": "ast",
-      "id": "context_shell",
-      "community": 14,
-      "norm_label": "shell"
-    },
-    {
-      "label": "Terminal",
-      "file_type": "document",
-      "source_file": "CONTEXT.md",
-      "source_location": "L28",
-      "_origin": "ast",
-      "id": "context_terminal",
-      "community": 14,
-      "norm_label": "terminal"
-    },
-    {
       "label": "README.md",
       "file_type": "document",
       "source_file": "README.md",
@@ -404,66 +334,6 @@
       "norm_label": "consequences"
     },
     {
-      "label": "0002-preservation-over-impermanence.md",
-      "file_type": "document",
-      "source_file": "docs/adr/0002-preservation-over-impermanence.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "adr_0002_preservation_over_impermanence",
-      "community": 15,
-      "norm_label": "0002-preservation-over-impermanence.md"
-    },
-    {
-      "label": "ADR 0002: Preservation over Impermanence",
-      "file_type": "document",
-      "source_file": "docs/adr/0002-preservation-over-impermanence.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "adr_0002_preservation_over_impermanence_adr_0002_preservation_over_impermanence",
-      "community": 15,
-      "norm_label": "adr 0002: preservation over impermanence"
-    },
-    {
-      "label": "Status",
-      "file_type": "document",
-      "source_file": "docs/adr/0002-preservation-over-impermanence.md",
-      "source_location": "L3",
-      "_origin": "ast",
-      "id": "adr_0002_preservation_over_impermanence_status",
-      "community": 15,
-      "norm_label": "status"
-    },
-    {
-      "label": "Context",
-      "file_type": "document",
-      "source_file": "docs/adr/0002-preservation-over-impermanence.md",
-      "source_location": "L7",
-      "_origin": "ast",
-      "id": "adr_0002_preservation_over_impermanence_context",
-      "community": 15,
-      "norm_label": "context"
-    },
-    {
-      "label": "Decision",
-      "file_type": "document",
-      "source_file": "docs/adr/0002-preservation-over-impermanence.md",
-      "source_location": "L16",
-      "_origin": "ast",
-      "id": "adr_0002_preservation_over_impermanence_decision",
-      "community": 15,
-      "norm_label": "decision"
-    },
-    {
-      "label": "Consequences",
-      "file_type": "document",
-      "source_file": "docs/adr/0002-preservation-over-impermanence.md",
-      "source_location": "L20",
-      "_origin": "ast",
-      "id": "adr_0002_preservation_over_impermanence_consequences",
-      "community": 15,
-      "norm_label": "consequences"
-    },
-    {
       "label": "domain.md",
       "file_type": "document",
       "source_file": "docs/agents/domain.md",
@@ -594,236 +464,6 @@
       "norm_label": "triage labels"
     },
     {
-      "label": "den-patterns.md",
-      "file_type": "document",
-      "source_file": "docs/explanation/den-patterns.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "explanation_den_patterns",
-      "community": 13,
-      "norm_label": "den-patterns.md"
-    },
-    {
-      "label": "Den Patterns",
-      "file_type": "document",
-      "source_file": "docs/explanation/den-patterns.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "explanation_den_patterns_den_patterns",
-      "community": 13,
-      "norm_label": "den patterns"
-    },
-    {
-      "label": "Aspects",
-      "file_type": "document",
-      "source_file": "docs/explanation/den-patterns.md",
-      "source_location": "L5",
-      "_origin": "ast",
-      "id": "explanation_den_patterns_aspects",
-      "community": 13,
-      "norm_label": "aspects"
-    },
-    {
-      "label": "Composition",
-      "file_type": "document",
-      "source_file": "docs/explanation/den-patterns.md",
-      "source_location": "L26",
-      "_origin": "ast",
-      "id": "explanation_den_patterns_composition",
-      "community": 13,
-      "norm_label": "composition"
-    },
-    {
-      "label": "Standalone Evaluation with `den.homes`",
-      "file_type": "document",
-      "source_file": "docs/explanation/den-patterns.md",
-      "source_location": "L57",
-      "_origin": "ast",
-      "id": "explanation_den_patterns_standalone_evaluation_with_den_homes",
-      "community": 13,
-      "norm_label": "standalone evaluation with `den.homes`"
-    },
-    {
-      "label": "Aspect Tests",
-      "file_type": "document",
-      "source_file": "docs/explanation/den-patterns.md",
-      "source_location": "L73",
-      "_origin": "ast",
-      "id": "explanation_den_patterns_aspect_tests",
-      "community": 13,
-      "norm_label": "aspect tests"
-    },
-    {
-      "label": "Module Files",
-      "file_type": "document",
-      "source_file": "docs/explanation/den-patterns.md",
-      "source_location": "L95",
-      "_origin": "ast",
-      "id": "explanation_den_patterns_module_files",
-      "community": 13,
-      "norm_label": "module files"
-    },
-    {
-      "label": "Key Concepts",
-      "file_type": "document",
-      "source_file": "docs/explanation/den-patterns.md",
-      "source_location": "L114",
-      "_origin": "ast",
-      "id": "explanation_den_patterns_key_concepts",
-      "community": 13,
-      "norm_label": "key concepts"
-    },
-    {
-      "label": "add-a-module.md",
-      "file_type": "document",
-      "source_file": "docs/how-to/add-a-module.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "how_to_add_a_module",
-      "community": 0,
-      "norm_label": "add-a-module.md"
-    },
-    {
-      "label": "Add a New Module",
-      "file_type": "document",
-      "source_file": "docs/how-to/add-a-module.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "how_to_add_a_module_add_a_new_module",
-      "community": 0,
-      "norm_label": "add a new module"
-    },
-    {
-      "label": "1. Create the module file",
-      "file_type": "document",
-      "source_file": "docs/how-to/add-a-module.md",
-      "source_location": "L5",
-      "_origin": "ast",
-      "id": "how_to_add_a_module_1_create_the_module_file",
-      "community": 0,
-      "norm_label": "1. create the module file"
-    },
-    {
-      "label": "Choosing the right scope",
-      "file_type": "document",
-      "source_file": "docs/how-to/add-a-module.md",
-      "source_location": "L22",
-      "_origin": "ast",
-      "id": "how_to_add_a_module_choosing_the_right_scope",
-      "community": 0,
-      "norm_label": "choosing the right scope"
-    },
-    {
-      "label": "Adding preservation",
-      "file_type": "document",
-      "source_file": "docs/how-to/add-a-module.md",
-      "source_location": "L31",
-      "_origin": "ast",
-      "id": "how_to_add_a_module_adding_preservation",
-      "community": 0,
-      "norm_label": "adding preservation"
-    },
-    {
-      "label": "2. Add aspect tests",
-      "file_type": "document",
-      "source_file": "docs/how-to/add-a-module.md",
-      "source_location": "L49",
-      "_origin": "ast",
-      "id": "how_to_add_a_module_2_add_aspect_tests",
-      "community": 0,
-      "norm_label": "2. add aspect tests"
-    },
-    {
-      "label": "3. Format and lint",
-      "file_type": "document",
-      "source_file": "docs/how-to/add-a-module.md",
-      "source_location": "L71",
-      "_origin": "ast",
-      "id": "how_to_add_a_module_3_format_and_lint",
-      "community": 0,
-      "norm_label": "3. format and lint"
-    },
-    {
-      "label": "4. Write the reference page",
-      "file_type": "document",
-      "source_file": "docs/how-to/add-a-module.md",
-      "source_location": "L79",
-      "_origin": "ast",
-      "id": "how_to_add_a_module_4_write_the_reference_page",
-      "community": 0,
-      "norm_label": "4. write the reference page"
-    },
-    {
-      "label": "Commands to verify the module works on a live system",
-      "file_type": "document",
-      "source_file": "docs/how-to/add-a-module.md",
-      "source_location": "L131",
-      "_origin": "ast",
-      "id": "how_to_add_a_module_commands_to_verify_the_module_works_on_a_live_system",
-      "community": 0,
-      "norm_label": "commands to verify the module works on a live system"
-    },
-    {
-      "label": "5. Run all checks",
-      "file_type": "document",
-      "source_file": "docs/how-to/add-a-module.md",
-      "source_location": "L159",
-      "_origin": "ast",
-      "id": "how_to_add_a_module_5_run_all_checks",
-      "community": 0,
-      "norm_label": "5. run all checks"
-    },
-    {
-      "label": "6. Commit everything together",
-      "file_type": "document",
-      "source_file": "docs/how-to/add-a-module.md",
-      "source_location": "L167",
-      "_origin": "ast",
-      "id": "how_to_add_a_module_6_commit_everything_together",
-      "community": 0,
-      "norm_label": "6. commit everything together"
-    },
-    {
-      "label": "index.md",
-      "file_type": "document",
-      "source_file": "docs/index.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "docs_index",
-      "community": 16,
-      "norm_label": "index.md"
-    },
-    {
-      "label": "SNROS",
-      "file_type": "document",
-      "source_file": "docs/index.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "docs_index_snros",
-      "community": 16,
-      "norm_label": "snros"
-    },
-    {
-      "label": "Documentation",
-      "file_type": "document",
-      "source_file": "docs/index.md",
-      "source_location": "L7",
-      "_origin": "ast",
-      "id": "docs_index_documentation",
-      "community": 16,
-      "norm_label": "documentation"
-    },
-    {
-      "label": "Project Links",
-      "file_type": "document",
-      "source_file": "docs/index.md",
-      "source_location": "L16",
-      "_origin": "ast",
-      "id": "docs_index_project_links",
-      "community": 16,
-      "norm_label": "project links"
-    },
-    {
       "label": "Check Workflow",
       "file_type": "code",
       "source_file": ".github/workflows/check.yaml",
@@ -898,7 +538,7 @@
       "author": null,
       "contributor": null,
       "rationale": "Every file in modules/ is a top-level flake-parts module, providing aspect-oriented architecture",
-      "community": 2,
+      "community": 0,
       "norm_label": "dendritic pattern",
       "id": "claude_dendritic_pattern"
     },
@@ -911,7 +551,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "norm_label": "den framework",
       "id": "claude_den_framework"
     },
@@ -924,7 +564,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "norm_label": "flake-parts",
       "id": "claude_flake_parts"
     },
@@ -937,7 +577,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "norm_label": "import-tree",
       "id": "claude_import_tree"
     },
@@ -976,7 +616,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "norm_label": "flake-file",
       "id": "claude_flake_file"
     },
@@ -989,7 +629,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "norm_label": "modules/dendritic.nix",
       "id": "claude_dendritic_nix"
     },
@@ -1053,9 +693,9 @@
       "source_file": ".github/PULL_REQUEST_TEMPLATE.md",
       "source_location": "L17",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "github_pull_request_template",
-      "target": "github_pull_request_template_breaking_changes"
+      "target": "github_pull_request_template_breaking_changes",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1063,9 +703,9 @@
       "source_file": ".github/PULL_REQUEST_TEMPLATE.md",
       "source_location": "L11",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "github_pull_request_template",
-      "target": "github_pull_request_template_checklist"
+      "target": "github_pull_request_template_checklist",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1073,9 +713,9 @@
       "source_file": ".github/PULL_REQUEST_TEMPLATE.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "github_pull_request_template",
-      "target": "github_pull_request_template_description"
+      "target": "github_pull_request_template_description",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1083,9 +723,9 @@
       "source_file": ".github/PULL_REQUEST_TEMPLATE.md",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "github_pull_request_template",
-      "target": "github_pull_request_template_linked_issue"
+      "target": "github_pull_request_template_linked_issue",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1093,9 +733,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "claude",
-      "target": "claude_snros"
+      "target": "claude_snros",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1103,9 +743,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L79",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "claude_snros",
-      "target": "claude_agent_skills"
+      "target": "claude_agent_skills",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1113,9 +753,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "claude_snros",
-      "target": "claude_architecture"
+      "target": "claude_architecture",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1123,9 +763,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L24",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "claude_snros",
-      "target": "claude_building"
+      "target": "claude_building",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1133,9 +773,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L14",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "claude_snros",
-      "target": "claude_conventions"
+      "target": "claude_conventions",
+      "confidence_score": 1.0
     },
     {
       "relation": "conceptually_related_to",
@@ -1163,9 +803,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L49",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "claude_snros",
-      "target": "claude_graphify"
+      "target": "claude_graphify",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -1203,9 +843,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L40",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "claude_snros",
-      "target": "claude_structure"
+      "target": "claude_structure",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1213,9 +853,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L89",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "claude_agent_skills",
-      "target": "claude_domain_docs"
+      "target": "claude_domain_docs",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1223,9 +863,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L81",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "claude_agent_skills",
-      "target": "claude_issue_tracker"
+      "target": "claude_issue_tracker",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1233,68 +873,8 @@
       "source_file": "CLAUDE.md",
       "source_location": "L85",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "claude_agent_skills",
-      "target": "claude_triage_labels"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CONTEXT.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "context",
-      "target": "context_snros_domain_glossary",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CONTEXT.md",
-      "source_location": "L22",
-      "weight": 1.0,
-      "source": "context_snros_domain_glossary",
-      "target": "context_shell",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CONTEXT.md",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "context_snros_domain_glossary",
-      "target": "context_system_defining_layer",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CONTEXT.md",
-      "source_location": "L28",
-      "weight": 1.0,
-      "source": "context_snros_domain_glossary",
-      "target": "context_terminal",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CONTEXT.md",
-      "source_location": "L17",
-      "weight": 1.0,
-      "source": "context_snros_domain_glossary",
-      "target": "context_theming",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CONTEXT.md",
-      "source_location": "L11",
-      "weight": 1.0,
-      "source": "context_snros_domain_glossary",
-      "target": "context_tool_categories",
+      "target": "claude_triage_labels",
       "confidence_score": 1.0
     },
     {
@@ -1303,9 +883,9 @@
       "source_file": "README.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "readme",
-      "target": "readme_snros"
+      "target": "readme_snros",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1313,9 +893,9 @@
       "source_file": "README.md",
       "source_location": "L49",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "readme_snros",
-      "target": "readme_development"
+      "target": "readme_development",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1323,9 +903,9 @@
       "source_file": "README.md",
       "source_location": "L14",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "readme_snros",
-      "target": "readme_getting_started"
+      "target": "readme_getting_started",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1333,9 +913,9 @@
       "source_file": "README.md",
       "source_location": "L67",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "readme_snros",
-      "target": "readme_license"
+      "target": "readme_license",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1343,9 +923,9 @@
       "source_file": "README.md",
       "source_location": "L8",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "readme_snros",
-      "target": "readme_overview"
+      "target": "readme_overview",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1353,9 +933,9 @@
       "source_file": "README.md",
       "source_location": "L41",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "readme_getting_started",
-      "target": "readme_applying_a_host_configuration"
+      "target": "readme_applying_a_host_configuration",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1363,9 +943,9 @@
       "source_file": "README.md",
       "source_location": "L16",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "readme_getting_started",
-      "target": "readme_prerequisites"
+      "target": "readme_prerequisites",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1373,9 +953,9 @@
       "source_file": "README.md",
       "source_location": "L32",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "readme_getting_started",
-      "target": "readme_setup"
+      "target": "readme_setup",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1383,9 +963,9 @@
       "source_file": "README.md",
       "source_location": "L53",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "readme_development",
-      "target": "readme_hooks"
+      "target": "readme_hooks",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1393,9 +973,9 @@
       "source_file": "README.md",
       "source_location": "L59",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "readme_development",
-      "target": "readme_workflow"
+      "target": "readme_workflow",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1403,9 +983,9 @@
       "source_file": "docs/adr/0001-devenv-over-flake-shell.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "adr_0001_devenv_over_flake_shell",
-      "target": "adr_0001_devenv_over_flake_shell_adr_0001_devenv_over_flake_native_dev_shell"
+      "target": "adr_0001_devenv_over_flake_shell_adr_0001_devenv_over_flake_native_dev_shell",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1413,9 +993,9 @@
       "source_file": "docs/adr/0001-devenv-over-flake-shell.md",
       "source_location": "L21",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "adr_0001_devenv_over_flake_shell_adr_0001_devenv_over_flake_native_dev_shell",
-      "target": "adr_0001_devenv_over_flake_shell_consequences"
+      "target": "adr_0001_devenv_over_flake_shell_consequences",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1423,9 +1003,9 @@
       "source_file": "docs/adr/0001-devenv-over-flake-shell.md",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "adr_0001_devenv_over_flake_shell_adr_0001_devenv_over_flake_native_dev_shell",
-      "target": "adr_0001_devenv_over_flake_shell_context"
+      "target": "adr_0001_devenv_over_flake_shell_context",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1433,9 +1013,9 @@
       "source_file": "docs/adr/0001-devenv-over-flake-shell.md",
       "source_location": "L13",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "adr_0001_devenv_over_flake_shell_adr_0001_devenv_over_flake_native_dev_shell",
-      "target": "adr_0001_devenv_over_flake_shell_decision"
+      "target": "adr_0001_devenv_over_flake_shell_decision",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1443,58 +1023,8 @@
       "source_file": "docs/adr/0001-devenv-over-flake-shell.md",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "adr_0001_devenv_over_flake_shell_adr_0001_devenv_over_flake_native_dev_shell",
-      "target": "adr_0001_devenv_over_flake_shell_status"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/adr/0002-preservation-over-impermanence.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "adr_0002_preservation_over_impermanence",
-      "target": "adr_0002_preservation_over_impermanence_adr_0002_preservation_over_impermanence",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/adr/0002-preservation-over-impermanence.md",
-      "source_location": "L20",
-      "weight": 1.0,
-      "source": "adr_0002_preservation_over_impermanence_adr_0002_preservation_over_impermanence",
-      "target": "adr_0002_preservation_over_impermanence_consequences",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/adr/0002-preservation-over-impermanence.md",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "adr_0002_preservation_over_impermanence_adr_0002_preservation_over_impermanence",
-      "target": "adr_0002_preservation_over_impermanence_context",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/adr/0002-preservation-over-impermanence.md",
-      "source_location": "L16",
-      "weight": 1.0,
-      "source": "adr_0002_preservation_over_impermanence_adr_0002_preservation_over_impermanence",
-      "target": "adr_0002_preservation_over_impermanence_decision",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/adr/0002-preservation-over-impermanence.md",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "adr_0002_preservation_over_impermanence_adr_0002_preservation_over_impermanence",
-      "target": "adr_0002_preservation_over_impermanence_status",
+      "target": "adr_0001_devenv_over_flake_shell_status",
       "confidence_score": 1.0
     },
     {
@@ -1503,9 +1033,9 @@
       "source_file": "docs/agents/domain.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "agents_domain",
-      "target": "agents_domain_domain_docs"
+      "target": "agents_domain_domain_docs",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1513,9 +1043,9 @@
       "source_file": "docs/agents/domain.md",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "agents_domain_domain_docs",
-      "target": "agents_domain_before_exploring_read_these"
+      "target": "agents_domain_before_exploring_read_these",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1523,9 +1053,9 @@
       "source_file": "docs/agents/domain.md",
       "source_location": "L13",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "agents_domain_domain_docs",
-      "target": "agents_domain_file_structure"
+      "target": "agents_domain_file_structure",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1533,9 +1063,9 @@
       "source_file": "docs/agents/domain.md",
       "source_location": "L32",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "agents_domain_domain_docs",
-      "target": "agents_domain_flag_adr_conflicts"
+      "target": "agents_domain_flag_adr_conflicts",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1543,9 +1073,9 @@
       "source_file": "docs/agents/domain.md",
       "source_location": "L26",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "agents_domain_domain_docs",
-      "target": "agents_domain_use_the_glossary_s_vocabulary"
+      "target": "agents_domain_use_the_glossary_s_vocabulary",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1553,9 +1083,9 @@
       "source_file": "docs/agents/issue-tracker.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "agents_issue_tracker",
-      "target": "agents_issue_tracker_issue_tracker_github"
+      "target": "agents_issue_tracker_issue_tracker_github",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1563,9 +1093,9 @@
       "source_file": "docs/agents/issue-tracker.md",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "agents_issue_tracker_issue_tracker_github",
-      "target": "agents_issue_tracker_conventions"
+      "target": "agents_issue_tracker_conventions",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1573,9 +1103,9 @@
       "source_file": "docs/agents/issue-tracker.md",
       "source_location": "L20",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "agents_issue_tracker_issue_tracker_github",
-      "target": "agents_issue_tracker_when_a_skill_says_fetch_the_relevant_ticket"
+      "target": "agents_issue_tracker_when_a_skill_says_fetch_the_relevant_ticket",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1583,9 +1113,9 @@
       "source_file": "docs/agents/issue-tracker.md",
       "source_location": "L16",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "agents_issue_tracker_issue_tracker_github",
-      "target": "agents_issue_tracker_when_a_skill_says_publish_to_the_issue_tracker"
+      "target": "agents_issue_tracker_when_a_skill_says_publish_to_the_issue_tracker",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1593,208 +1123,8 @@
       "source_file": "docs/agents/triage-labels.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "agents_triage_labels",
-      "target": "agents_triage_labels_triage_labels"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/explanation/den-patterns.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "explanation_den_patterns",
-      "target": "explanation_den_patterns_den_patterns",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/explanation/den-patterns.md",
-      "source_location": "L73",
-      "weight": 1.0,
-      "source": "explanation_den_patterns_den_patterns",
-      "target": "explanation_den_patterns_aspect_tests",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/explanation/den-patterns.md",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "explanation_den_patterns_den_patterns",
-      "target": "explanation_den_patterns_aspects",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/explanation/den-patterns.md",
-      "source_location": "L26",
-      "weight": 1.0,
-      "source": "explanation_den_patterns_den_patterns",
-      "target": "explanation_den_patterns_composition",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/explanation/den-patterns.md",
-      "source_location": "L114",
-      "weight": 1.0,
-      "source": "explanation_den_patterns_den_patterns",
-      "target": "explanation_den_patterns_key_concepts",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/explanation/den-patterns.md",
-      "source_location": "L95",
-      "weight": 1.0,
-      "source": "explanation_den_patterns_den_patterns",
-      "target": "explanation_den_patterns_module_files",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/explanation/den-patterns.md",
-      "source_location": "L57",
-      "weight": 1.0,
-      "source": "explanation_den_patterns_den_patterns",
-      "target": "explanation_den_patterns_standalone_evaluation_with_den_homes",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/how-to/add-a-module.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "how_to_add_a_module",
-      "target": "how_to_add_a_module_add_a_new_module",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/how-to/add-a-module.md",
-      "source_location": "L131",
-      "weight": 1.0,
-      "source": "how_to_add_a_module",
-      "target": "how_to_add_a_module_commands_to_verify_the_module_works_on_a_live_system",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/how-to/add-a-module.md",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "how_to_add_a_module_add_a_new_module",
-      "target": "how_to_add_a_module_1_create_the_module_file",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/how-to/add-a-module.md",
-      "source_location": "L49",
-      "weight": 1.0,
-      "source": "how_to_add_a_module_add_a_new_module",
-      "target": "how_to_add_a_module_2_add_aspect_tests",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/how-to/add-a-module.md",
-      "source_location": "L71",
-      "weight": 1.0,
-      "source": "how_to_add_a_module_add_a_new_module",
-      "target": "how_to_add_a_module_3_format_and_lint",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/how-to/add-a-module.md",
-      "source_location": "L79",
-      "weight": 1.0,
-      "source": "how_to_add_a_module_add_a_new_module",
-      "target": "how_to_add_a_module_4_write_the_reference_page",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/how-to/add-a-module.md",
-      "source_location": "L31",
-      "weight": 1.0,
-      "source": "how_to_add_a_module_1_create_the_module_file",
-      "target": "how_to_add_a_module_adding_preservation",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/how-to/add-a-module.md",
-      "source_location": "L22",
-      "weight": 1.0,
-      "source": "how_to_add_a_module_1_create_the_module_file",
-      "target": "how_to_add_a_module_choosing_the_right_scope",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/how-to/add-a-module.md",
-      "source_location": "L159",
-      "weight": 1.0,
-      "source": "how_to_add_a_module_commands_to_verify_the_module_works_on_a_live_system",
-      "target": "how_to_add_a_module_5_run_all_checks",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/how-to/add-a-module.md",
-      "source_location": "L167",
-      "weight": 1.0,
-      "source": "how_to_add_a_module_commands_to_verify_the_module_works_on_a_live_system",
-      "target": "how_to_add_a_module_6_commit_everything_together",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/index.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "docs_index",
-      "target": "docs_index_snros",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/index.md",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "docs_index_snros",
-      "target": "docs_index_documentation",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/index.md",
-      "source_location": "L16",
-      "weight": 1.0,
-      "source": "docs_index_snros",
-      "target": "docs_index_project_links",
+      "target": "agents_triage_labels_triage_labels",
       "confidence_score": 1.0
     },
     {
@@ -1899,5 +1229,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "cde7792fb98b815639d5655049183294d6193d55"
+  "built_at_commit": "e60bf2d60de52973651db37a7925ad7d5bb4ede3"
 }
