@@ -69,6 +69,16 @@
           };
         };
 
+        users.users.snregales = {
+          isNormalUser = true;
+          extraGroups = [
+            "wheel"
+            "networkmanager"
+          ];
+          group = "snregales";
+        };
+        users.groups.snregales = { };
+
         services.getty.autologinUser = "snregales";
 
         preservation.preserveAt."/persistent" = {
