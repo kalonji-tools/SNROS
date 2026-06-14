@@ -25,30 +25,18 @@
       before = [ "devenv:enterShell" ];
     };
 
-    "snros:install-graphify" = {
+    "snros:uv-sync" = {
       exec = ''
-        uv tool install graphifyy -q 2>/dev/null
-        export PATH="$HOME/.local/bin:$PATH"
+        uv sync --all-groups -q 2>/dev/null
         if git rev-parse --git-dir > /dev/null 2>&1; then
-          graphify hook install 2>/dev/null || true
+          uv run graphify hook install 2>/dev/null || true
         fi
-      '';
-      before = [ "devenv:enterShell" ];
-    };
-
-    "snros:install-mkdocs" = {
-      exec = ''
-        uv tool install mkdocs \
-          --with mkdocs-material \
-          --with mkdocs-awesome-pages-plugin \
-          --with mkdocs-git-revision-date-localized-plugin \
-          -q 2>/dev/null
       '';
       before = [ "devenv:enterShell" ];
     };
   };
 
   enterShell = ''
-    export PATH="$HOME/.local/bin:$PATH"
+    export PATH="$PWD/.venv/bin:$PATH"
   '';
 }
