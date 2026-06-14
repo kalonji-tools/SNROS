@@ -1,16 +1,16 @@
-# Graph Report - mynixos.feat-9-vm-tests  (2026-06-14)
+# Graph Report - mynixos.feat-46-upgrade-service  (2026-06-14)
 
 ## Corpus Check
-- 17 files · ~4,530 words
+- 18 files · ~4,819 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 140 nodes · 121 edges · 21 communities (16 shown, 5 thin omitted)
+- 151 nodes · 131 edges · 22 communities (17 shown, 5 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 1 edges (avg confidence: 0.95)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `e11602dd`
+- Built from commit: `cfb4a830`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -35,18 +35,19 @@
 - [[_COMMUNITY_Community 17|Community 17]]
 - [[_COMMUNITY_Community 18|Community 18]]
 - [[_COMMUNITY_Community 19|Community 19]]
+- [[_COMMUNITY_Community 21|Community 21]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `SNROS` - 12 edges
 2. `VM Tests` - 8 edges
 3. `Den Patterns` - 7 edges
-4. `SNROS Domain Glossary` - 6 edges
-5. `NixOS Helpers` - 6 edges
-6. `SNROS` - 5 edges
-7. `ADR 0001: devenv over flake-native dev shell` - 5 edges
-8. `ADR 0002: Preservation over Impermanence` - 5 edges
-9. `Domain Docs` - 5 edges
-10. `Add a New Module` - 5 edges
+4. `Upgrade Service` - 7 edges
+5. `SNROS Domain Glossary` - 6 edges
+6. `NixOS Helpers` - 6 edges
+7. `SNROS` - 5 edges
+8. `ADR 0001: devenv over flake-native dev shell` - 5 edges
+9. `ADR 0002: Preservation over Impermanence` - 5 edges
+10. `Domain Docs` - 5 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `prek pre-commit checker` --semantically_similar_to--> `prek Pre-commit Tool`  [INFERRED] [semantically similar]
@@ -55,7 +56,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (21 total, 5 thin omitted)
+## Communities (22 total, 5 thin omitted)
 
 ### Community 0 - "Den Framework Core"
 Cohesion: 0.18
@@ -117,8 +118,12 @@ Nodes (6): Den configuration, NixOS Helpers, Post-deploy verification, Preservat
 Cohesion: 0.18
 Nodes (10): Adding a new test, Adding host-specific tests, How to run, Local (on the machine itself), Python dependencies, Remote (SSH to a host), Specific test file, Test structure (+2 more)
 
+### Community 21 - "Community 21"
+Cohesion: 0.18
+Nodes (10): Check last result, Den configuration, Failure behavior, How it works internally, How to use, No automatic polling, Trigger an upgrade, Upgrade Service (+2 more)
+
 ## Knowledge Gaps
-- **86 isolated node(s):** `Description`, `Linked Issue`, `Checklist`, `Breaking Changes`, `Architecture` (+81 more)
+- **94 isolated node(s):** `Description`, `Linked Issue`, `Checklist`, `Breaking Changes`, `Architecture` (+89 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **5 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -126,11 +131,11 @@ Nodes (10): Adding a new test, Adding host-specific tests, How to run, Local (on
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `SNROS` connect `Project Tooling` to `Pre-commit Pipeline`?**
-  _High betweenness centrality (0.025) - this node is a cross-community bridge._
+  _High betweenness centrality (0.022) - this node is a cross-community bridge._
 - **Why does `prek Pre-commit Tool` connect `Pre-commit Pipeline` to `Project Tooling`?**
-  _High betweenness centrality (0.010) - this node is a cross-community bridge._
+  _High betweenness centrality (0.009) - this node is a cross-community bridge._
 - **What connects `Tests that should pass on any SNROS host.`, `Description`, `Linked Issue` to the rest of the system?**
-  _87 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _95 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Project Tooling` be split into smaller, more focused modules?**
   _Cohesion score 0.1111111111111111 - nodes in this community are weakly interconnected._
 - **Should `Community 11` be split into smaller, more focused modules?**
