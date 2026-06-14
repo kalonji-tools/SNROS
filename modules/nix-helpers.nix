@@ -14,16 +14,11 @@
         ];
       };
     nixos =
-      {
-        pkgs,
-        config,
-        lib,
-        ...
-      }:
+      { pkgs, ... }:
       {
         programs.command-not-found.enable = false;
         environment.systemPackages = [ pkgs.nh ];
-        preservation.preserveAt."/persistent" = lib.mkIf (config ? preservation) {
+        preservation.preserveAt."/persistent" = {
           users.snregales.directories = [
             ".cache/nix-index"
           ];
