@@ -28,3 +28,4 @@ jobs:
       - name: Install devenv
         run: nix profile add nixpkgs#devenv
       - run: devenv shell -- prek run --all-files
+      - run: nix flake check
