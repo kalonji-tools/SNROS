@@ -1094,6 +1094,116 @@
       "norm_label": "python dependencies"
     },
     {
+      "label": "upgrade.md",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/upgrade.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "modules_upgrade",
+      "community": 21,
+      "norm_label": "upgrade.md"
+    },
+    {
+      "label": "Upgrade Service",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/upgrade.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "modules_upgrade_upgrade_service",
+      "community": 21,
+      "norm_label": "upgrade service"
+    },
+    {
+      "label": "What it does",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/upgrade.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "modules_upgrade_what_it_does",
+      "community": 21,
+      "norm_label": "what it does"
+    },
+    {
+      "label": "How to use",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/upgrade.md",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "modules_upgrade_how_to_use",
+      "community": 21,
+      "norm_label": "how to use"
+    },
+    {
+      "label": "Trigger an upgrade",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/upgrade.md",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "modules_upgrade_trigger_an_upgrade",
+      "community": 21,
+      "norm_label": "trigger an upgrade"
+    },
+    {
+      "label": "Watch progress",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/upgrade.md",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "modules_upgrade_watch_progress",
+      "community": 21,
+      "norm_label": "watch progress"
+    },
+    {
+      "label": "Check last result",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/upgrade.md",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "modules_upgrade_check_last_result",
+      "community": 21,
+      "norm_label": "check last result"
+    },
+    {
+      "label": "Failure behavior",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/upgrade.md",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "modules_upgrade_failure_behavior",
+      "community": 21,
+      "norm_label": "failure behavior"
+    },
+    {
+      "label": "Den configuration",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/upgrade.md",
+      "source_location": "L42",
+      "_origin": "ast",
+      "id": "modules_upgrade_den_configuration",
+      "community": 21,
+      "norm_label": "den configuration"
+    },
+    {
+      "label": "How it works internally",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/upgrade.md",
+      "source_location": "L50",
+      "_origin": "ast",
+      "id": "modules_upgrade_how_it_works_internally",
+      "community": 21,
+      "norm_label": "how it works internally"
+    },
+    {
+      "label": "No automatic polling",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/upgrade.md",
+      "source_location": "L57",
+      "_origin": "ast",
+      "id": "modules_upgrade_no_automatic_polling",
+      "community": 21,
+      "norm_label": "no automatic polling"
+    },
+    {
       "label": "vm-tests.md",
       "file_type": "document",
       "source_file": "docs/reference/modules/vm-tests.md",
@@ -2440,12 +2550,112 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "docs/reference/modules/upgrade.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "modules_upgrade",
+      "target": "modules_upgrade_upgrade_service",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/modules/upgrade.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "modules_upgrade_upgrade_service",
+      "target": "modules_upgrade_den_configuration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/modules/upgrade.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "modules_upgrade_upgrade_service",
+      "target": "modules_upgrade_failure_behavior",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/modules/upgrade.md",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "modules_upgrade_upgrade_service",
+      "target": "modules_upgrade_how_it_works_internally",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/modules/upgrade.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "modules_upgrade_upgrade_service",
+      "target": "modules_upgrade_how_to_use",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/modules/upgrade.md",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "modules_upgrade_upgrade_service",
+      "target": "modules_upgrade_no_automatic_polling",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/modules/upgrade.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "modules_upgrade_upgrade_service",
+      "target": "modules_upgrade_what_it_does",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/modules/upgrade.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "modules_upgrade_how_to_use",
+      "target": "modules_upgrade_check_last_result",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/modules/upgrade.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "modules_upgrade_how_to_use",
+      "target": "modules_upgrade_trigger_an_upgrade",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/modules/upgrade.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "modules_upgrade_how_to_use",
+      "target": "modules_upgrade_watch_progress",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "docs/reference/modules/vm-tests.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "modules_vm_tests",
-      "target": "modules_vm_tests_vm_tests",
-      "confidence_score": 1.0
+      "target": "modules_vm_tests_vm_tests"
     },
     {
       "relation": "contains",
@@ -2453,9 +2663,9 @@
       "source_file": "docs/reference/modules/vm-tests.md",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "modules_vm_tests_vm_tests",
-      "target": "modules_vm_tests_adding_a_new_vm_test",
-      "confidence_score": 1.0
+      "target": "modules_vm_tests_adding_a_new_vm_test"
     },
     {
       "relation": "contains",
@@ -2463,9 +2673,9 @@
       "source_file": "docs/reference/modules/vm-tests.md",
       "source_location": "L87",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "modules_vm_tests_vm_tests",
-      "target": "modules_vm_tests_ci_considerations",
-      "confidence_score": 1.0
+      "target": "modules_vm_tests_ci_considerations"
     },
     {
       "relation": "contains",
@@ -2473,9 +2683,9 @@
       "source_file": "docs/reference/modules/vm-tests.md",
       "source_location": "L30",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "modules_vm_tests_vm_tests",
-      "target": "modules_vm_tests_current_tests",
-      "confidence_score": 1.0
+      "target": "modules_vm_tests_current_tests"
     },
     {
       "relation": "contains",
@@ -2483,9 +2693,9 @@
       "source_file": "docs/reference/modules/vm-tests.md",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "modules_vm_tests_vm_tests",
-      "target": "modules_vm_tests_how_to_run",
-      "confidence_score": 1.0
+      "target": "modules_vm_tests_how_to_run"
     },
     {
       "relation": "contains",
@@ -2493,9 +2703,9 @@
       "source_file": "docs/reference/modules/vm-tests.md",
       "source_location": "L91",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "modules_vm_tests_vm_tests",
-      "target": "modules_vm_tests_references",
-      "confidence_score": 1.0
+      "target": "modules_vm_tests_references"
     },
     {
       "relation": "contains",
@@ -2503,9 +2713,9 @@
       "source_file": "docs/reference/modules/vm-tests.md",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "modules_vm_tests_vm_tests",
-      "target": "modules_vm_tests_testing_flow",
-      "confidence_score": 1.0
+      "target": "modules_vm_tests_testing_flow"
     },
     {
       "relation": "contains",
@@ -2513,9 +2723,9 @@
       "source_file": "docs/reference/modules/vm-tests.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "modules_vm_tests_vm_tests",
-      "target": "modules_vm_tests_what_it_does",
-      "confidence_score": 1.0
+      "target": "modules_vm_tests_what_it_does"
     },
     {
       "relation": "contains",
@@ -2523,9 +2733,9 @@
       "source_file": "docs/reference/modules/vm-tests.md",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "modules_vm_tests_how_to_run",
-      "target": "modules_vm_tests_all_checks_includes_vm_tests",
-      "confidence_score": 1.0
+      "target": "modules_vm_tests_all_checks_includes_vm_tests"
     },
     {
       "relation": "contains",
@@ -2533,9 +2743,9 @@
       "source_file": "docs/reference/modules/vm-tests.md",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "modules_vm_tests_how_to_run",
-      "target": "modules_vm_tests_single_vm_test",
-      "confidence_score": 1.0
+      "target": "modules_vm_tests_single_vm_test"
     },
     {
       "relation": "contains",
@@ -2543,9 +2753,9 @@
       "source_file": "docs/reference/modules/vm-tests.md",
       "source_location": "L62",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "modules_vm_tests_adding_a_new_vm_test",
-      "target": "modules_vm_tests_common_test_script_commands",
-      "confidence_score": 1.0
+      "target": "modules_vm_tests_common_test_script_commands"
     },
     {
       "relation": "contains",
@@ -2553,9 +2763,9 @@
       "source_file": "docs/reference/modules/vm-tests.md",
       "source_location": "L58",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "modules_vm_tests_adding_a_new_vm_test",
-      "target": "modules_vm_tests_naming_convention",
-      "confidence_score": 1.0
+      "target": "modules_vm_tests_naming_convention"
     },
     {
       "relation": "contains",
@@ -2563,9 +2773,9 @@
       "source_file": "docs/reference/modules/vm-tests.md",
       "source_location": "L72",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "modules_vm_tests_adding_a_new_vm_test",
-      "target": "modules_vm_tests_testing_a_host_configuration_when_22_lands",
-      "confidence_score": 1.0
+      "target": "modules_vm_tests_testing_a_host_configuration_when_22_lands"
     },
     {
       "relation": "references",
@@ -2669,5 +2879,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "e11602dd4dade9b615dbb14cf6be281947fd3d1f"
+  "built_at_commit": "cfb4a830f817517f94f4b773aaf3324e116734c0"
 }
