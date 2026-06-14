@@ -1,0 +1,17 @@
+[project]
+name = "snros"
+version = "0.0.0"
+requires-python = ">=3.14"
+
+[dependency-groups]
+docs = [
+  "mkdocs-material",
+  "mkdocs-awesome-pages-plugin",
+  "mkdocs-git-revision-date-localized-plugin",
+]
+graph = ["graphifyy"]
+test = ["pytest", "pytest-testinfra", "paramiko"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["slow: marks tests that require SSH to a live host"]
