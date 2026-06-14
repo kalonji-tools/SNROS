@@ -914,6 +914,146 @@
       "norm_label": "project links"
     },
     {
+      "label": "dell-xps-9640.md",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/dell-xps-9640.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "modules_dell_xps_9640",
+      "community": 22,
+      "norm_label": "dell-xps-9640.md"
+    },
+    {
+      "label": "Dell XPS 9640",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/dell-xps-9640.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "modules_dell_xps_9640_dell_xps_9640",
+      "community": 22,
+      "norm_label": "dell xps 9640"
+    },
+    {
+      "label": "Hardware",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/dell-xps-9640.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "modules_dell_xps_9640_hardware",
+      "community": 22,
+      "norm_label": "hardware"
+    },
+    {
+      "label": "Disk layout (disko)",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/dell-xps-9640.md",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "modules_dell_xps_9640_disk_layout_disko",
+      "community": 22,
+      "norm_label": "disk layout (disko)"
+    },
+    {
+      "label": "User preservation",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/dell-xps-9640.md",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "modules_dell_xps_9640_user_preservation",
+      "community": 22,
+      "norm_label": "user preservation"
+    },
+    {
+      "label": "Den configuration",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/dell-xps-9640.md",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "modules_dell_xps_9640_den_configuration",
+      "community": 22,
+      "norm_label": "den configuration"
+    },
+    {
+      "label": "HITL provisioning",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/dell-xps-9640.md",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "modules_dell_xps_9640_hitl_provisioning",
+      "community": 22,
+      "norm_label": "hitl provisioning"
+    },
+    {
+      "label": "Regenerating facter report",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/dell-xps-9640.md",
+      "source_location": "L48",
+      "_origin": "ast",
+      "id": "modules_dell_xps_9640_regenerating_facter_report",
+      "community": 22,
+      "norm_label": "regenerating facter report"
+    },
+    {
+      "label": "ephemeral-root.md",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/ephemeral-root.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "modules_ephemeral_root",
+      "community": 23,
+      "norm_label": "ephemeral-root.md"
+    },
+    {
+      "label": "Ephemeral Root",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/ephemeral-root.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "modules_ephemeral_root_ephemeral_root",
+      "community": 23,
+      "norm_label": "ephemeral root"
+    },
+    {
+      "label": "What it does",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/ephemeral-root.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "modules_ephemeral_root_what_it_does",
+      "community": 23,
+      "norm_label": "what it does"
+    },
+    {
+      "label": "Boot sequence",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/ephemeral-root.md",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "modules_ephemeral_root_boot_sequence",
+      "community": 23,
+      "norm_label": "boot sequence"
+    },
+    {
+      "label": "Den configuration",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/ephemeral-root.md",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "modules_ephemeral_root_den_configuration",
+      "community": 23,
+      "norm_label": "den configuration"
+    },
+    {
+      "label": "Shared across hosts",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/ephemeral-root.md",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "modules_ephemeral_root_shared_across_hosts",
+      "community": 23,
+      "norm_label": "shared across hosts"
+    },
+    {
       "label": "nix-helpers.md",
       "file_type": "document",
       "source_file": "docs/reference/modules/nix-helpers.md",
@@ -982,6 +1122,56 @@
       "id": "modules_nix_helpers_post_deploy_verification",
       "community": 17,
       "norm_label": "post-deploy verification"
+    },
+    {
+      "label": "preservation-base.md",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/preservation-base.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "modules_preservation_base",
+      "community": 24,
+      "norm_label": "preservation-base.md"
+    },
+    {
+      "label": "Preservation Base",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/preservation-base.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "modules_preservation_base_preservation_base",
+      "community": 24,
+      "norm_label": "preservation base"
+    },
+    {
+      "label": "What it preserves",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/preservation-base.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "modules_preservation_base_what_it_preserves",
+      "community": 24,
+      "norm_label": "what it preserves"
+    },
+    {
+      "label": "Preservation philosophy",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/preservation-base.md",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "modules_preservation_base_preservation_philosophy",
+      "community": 24,
+      "norm_label": "preservation philosophy"
+    },
+    {
+      "label": "Den configuration",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/preservation-base.md",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "modules_preservation_base_den_configuration",
+      "community": 24,
+      "norm_label": "den configuration"
     },
     {
       "label": "testinfra.md",
@@ -2390,6 +2580,126 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "docs/reference/modules/dell-xps-9640.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "modules_dell_xps_9640",
+      "target": "modules_dell_xps_9640_dell_xps_9640",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/modules/dell-xps-9640.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "modules_dell_xps_9640_dell_xps_9640",
+      "target": "modules_dell_xps_9640_den_configuration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/modules/dell-xps-9640.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "modules_dell_xps_9640_dell_xps_9640",
+      "target": "modules_dell_xps_9640_disk_layout_disko",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/modules/dell-xps-9640.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "modules_dell_xps_9640_dell_xps_9640",
+      "target": "modules_dell_xps_9640_hardware",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/modules/dell-xps-9640.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "modules_dell_xps_9640_dell_xps_9640",
+      "target": "modules_dell_xps_9640_hitl_provisioning",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/modules/dell-xps-9640.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "modules_dell_xps_9640_dell_xps_9640",
+      "target": "modules_dell_xps_9640_regenerating_facter_report",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/modules/dell-xps-9640.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "modules_dell_xps_9640_dell_xps_9640",
+      "target": "modules_dell_xps_9640_user_preservation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/modules/ephemeral-root.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "modules_ephemeral_root",
+      "target": "modules_ephemeral_root_ephemeral_root",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/modules/ephemeral-root.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "modules_ephemeral_root_ephemeral_root",
+      "target": "modules_ephemeral_root_boot_sequence",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/modules/ephemeral-root.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "modules_ephemeral_root_ephemeral_root",
+      "target": "modules_ephemeral_root_den_configuration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/modules/ephemeral-root.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "modules_ephemeral_root_ephemeral_root",
+      "target": "modules_ephemeral_root_shared_across_hosts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/modules/ephemeral-root.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "modules_ephemeral_root_ephemeral_root",
+      "target": "modules_ephemeral_root_what_it_does",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "docs/reference/modules/nix-helpers.md",
       "source_location": "L1",
       "weight": 1.0,
@@ -2446,6 +2756,46 @@
       "confidence_score": 1.0,
       "source": "modules_nix_helpers_nixos_helpers",
       "target": "modules_nix_helpers_what_it_does"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/modules/preservation-base.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "modules_preservation_base",
+      "target": "modules_preservation_base_preservation_base",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/modules/preservation-base.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "modules_preservation_base_preservation_base",
+      "target": "modules_preservation_base_den_configuration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/modules/preservation-base.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "modules_preservation_base_preservation_base",
+      "target": "modules_preservation_base_preservation_philosophy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/modules/preservation-base.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "modules_preservation_base_preservation_base",
+      "target": "modules_preservation_base_what_it_preserves",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2553,9 +2903,9 @@
       "source_file": "docs/reference/modules/upgrade.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "modules_upgrade",
-      "target": "modules_upgrade_upgrade_service",
-      "confidence_score": 1.0
+      "target": "modules_upgrade_upgrade_service"
     },
     {
       "relation": "contains",
@@ -2563,9 +2913,9 @@
       "source_file": "docs/reference/modules/upgrade.md",
       "source_location": "L42",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "modules_upgrade_upgrade_service",
-      "target": "modules_upgrade_den_configuration",
-      "confidence_score": 1.0
+      "target": "modules_upgrade_den_configuration"
     },
     {
       "relation": "contains",
@@ -2573,9 +2923,9 @@
       "source_file": "docs/reference/modules/upgrade.md",
       "source_location": "L34",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "modules_upgrade_upgrade_service",
-      "target": "modules_upgrade_failure_behavior",
-      "confidence_score": 1.0
+      "target": "modules_upgrade_failure_behavior"
     },
     {
       "relation": "contains",
@@ -2583,9 +2933,9 @@
       "source_file": "docs/reference/modules/upgrade.md",
       "source_location": "L50",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "modules_upgrade_upgrade_service",
-      "target": "modules_upgrade_how_it_works_internally",
-      "confidence_score": 1.0
+      "target": "modules_upgrade_how_it_works_internally"
     },
     {
       "relation": "contains",
@@ -2593,9 +2943,9 @@
       "source_file": "docs/reference/modules/upgrade.md",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "modules_upgrade_upgrade_service",
-      "target": "modules_upgrade_how_to_use",
-      "confidence_score": 1.0
+      "target": "modules_upgrade_how_to_use"
     },
     {
       "relation": "contains",
@@ -2603,9 +2953,9 @@
       "source_file": "docs/reference/modules/upgrade.md",
       "source_location": "L57",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "modules_upgrade_upgrade_service",
-      "target": "modules_upgrade_no_automatic_polling",
-      "confidence_score": 1.0
+      "target": "modules_upgrade_no_automatic_polling"
     },
     {
       "relation": "contains",
@@ -2613,9 +2963,9 @@
       "source_file": "docs/reference/modules/upgrade.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "modules_upgrade_upgrade_service",
-      "target": "modules_upgrade_what_it_does",
-      "confidence_score": 1.0
+      "target": "modules_upgrade_what_it_does"
     },
     {
       "relation": "contains",
@@ -2623,9 +2973,9 @@
       "source_file": "docs/reference/modules/upgrade.md",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "modules_upgrade_how_to_use",
-      "target": "modules_upgrade_check_last_result",
-      "confidence_score": 1.0
+      "target": "modules_upgrade_check_last_result"
     },
     {
       "relation": "contains",
@@ -2633,9 +2983,9 @@
       "source_file": "docs/reference/modules/upgrade.md",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "modules_upgrade_how_to_use",
-      "target": "modules_upgrade_trigger_an_upgrade",
-      "confidence_score": 1.0
+      "target": "modules_upgrade_trigger_an_upgrade"
     },
     {
       "relation": "contains",
@@ -2643,9 +2993,9 @@
       "source_file": "docs/reference/modules/upgrade.md",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "modules_upgrade_how_to_use",
-      "target": "modules_upgrade_watch_progress",
-      "confidence_score": 1.0
+      "target": "modules_upgrade_watch_progress"
     },
     {
       "relation": "contains",
@@ -2879,5 +3229,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "cfb4a830f817517f94f4b773aaf3324e116734c0"
+  "built_at_commit": "cc5056fe0b26aea0e3452490da21f487a6ee3982"
 }

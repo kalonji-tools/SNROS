@@ -1,16 +1,16 @@
-# Graph Report - mynixos.feat-22-boot-host  (2026-06-14)
+# Graph Report - mynixos.feat-50-vm-disko-test  (2026-06-14)
 
 ## Corpus Check
-- 22 files · ~13,169 words
+- 23 files · ~13,453 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 170 nodes · 147 edges · 25 communities (20 shown, 5 thin omitted)
+- 178 nodes · 154 edges · 26 communities (21 shown, 5 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 1 edges (avg confidence: 0.95)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `cc5056fe`
+- Built from commit: `32bf4045`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -39,6 +39,7 @@
 - [[_COMMUNITY_Community 22|Community 22]]
 - [[_COMMUNITY_Community 23|Community 23]]
 - [[_COMMUNITY_Community 24|Community 24]]
+- [[_COMMUNITY_Community 25|Community 25]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `SNROS` - 12 edges
@@ -59,7 +60,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (25 total, 5 thin omitted)
+## Communities (26 total, 5 thin omitted)
 
 ### Community 0 - "Den Framework Core"
 Cohesion: 0.18
@@ -137,8 +138,12 @@ Nodes (5): Boot sequence, Den configuration, Ephemeral Root, Shared across hosts
 Cohesion: 0.40
 Nodes (4): Den configuration, Preservation Base, Preservation philosophy, What it preserves
 
+### Community 25 - "Community 25"
+Cohesion: 0.25
+Nodes (7): All checks, How to run, Individual tests, Shared disko layout, Tests, VM Integration Tests (Disko + Preservation), When to run
+
 ## Knowledge Gaps
-- **107 isolated node(s):** `Description`, `Linked Issue`, `Checklist`, `Breaking Changes`, `Architecture` (+102 more)
+- **112 isolated node(s):** `Description`, `Linked Issue`, `Checklist`, `Breaking Changes`, `Architecture` (+107 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **5 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -146,11 +151,11 @@ Nodes (4): Den configuration, Preservation Base, Preservation philosophy, What i
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `SNROS` connect `Project Tooling` to `Pre-commit Pipeline`?**
-  _High betweenness centrality (0.017) - this node is a cross-community bridge._
+  _High betweenness centrality (0.016) - this node is a cross-community bridge._
 - **Why does `prek Pre-commit Tool` connect `Pre-commit Pipeline` to `Project Tooling`?**
-  _High betweenness centrality (0.007) - this node is a cross-community bridge._
+  _High betweenness centrality (0.006) - this node is a cross-community bridge._
 - **What connects `Tests that should pass on any SNROS host.`, `Description`, `Linked Issue` to the rest of the system?**
-  _108 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _113 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Project Tooling` be split into smaller, more focused modules?**
   _Cohesion score 0.1111111111111111 - nodes in this community are weakly interconnected._
 - **Should `Community 11` be split into smaller, more focused modules?**
