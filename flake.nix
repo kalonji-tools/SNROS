@@ -5,6 +5,10 @@
 
   inputs = {
     den.url = "github:denful/den";
+    disko = {
+      url = "github:nix-community/disko";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
     flake-file.url = "github:vic/flake-file";
     flake-parts = {
       url = "github:hercules-ci/flake-parts";
@@ -16,5 +20,6 @@
     };
     import-tree.url = "github:vic/import-tree";
     nixpkgs.url = "https://channels.nixos.org/nixpkgs-unstable/nixexprs.tar.xz";
+    preservation.url = "github:nix-community/preservation";
   };
 }
