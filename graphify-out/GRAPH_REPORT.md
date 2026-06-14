@@ -1,16 +1,16 @@
-# Graph Report - mynixos.feat-46-upgrade-service  (2026-06-14)
+# Graph Report - mynixos.feat-22-boot-host  (2026-06-14)
 
 ## Corpus Check
-- 18 files · ~4,819 words
+- 22 files · ~13,169 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 151 nodes · 131 edges · 22 communities (17 shown, 5 thin omitted)
+- 170 nodes · 147 edges · 25 communities (20 shown, 5 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 1 edges (avg confidence: 0.95)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `cfb4a830`
+- Built from commit: `cc5056fe`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -36,18 +36,21 @@
 - [[_COMMUNITY_Community 18|Community 18]]
 - [[_COMMUNITY_Community 19|Community 19]]
 - [[_COMMUNITY_Community 21|Community 21]]
+- [[_COMMUNITY_Community 22|Community 22]]
+- [[_COMMUNITY_Community 23|Community 23]]
+- [[_COMMUNITY_Community 24|Community 24]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `SNROS` - 12 edges
 2. `VM Tests` - 8 edges
 3. `Den Patterns` - 7 edges
-4. `Upgrade Service` - 7 edges
-5. `SNROS Domain Glossary` - 6 edges
-6. `NixOS Helpers` - 6 edges
-7. `SNROS` - 5 edges
-8. `ADR 0001: devenv over flake-native dev shell` - 5 edges
-9. `ADR 0002: Preservation over Impermanence` - 5 edges
-10. `Domain Docs` - 5 edges
+4. `Dell XPS 9640` - 7 edges
+5. `Upgrade Service` - 7 edges
+6. `SNROS Domain Glossary` - 6 edges
+7. `NixOS Helpers` - 6 edges
+8. `SNROS` - 5 edges
+9. `ADR 0001: devenv over flake-native dev shell` - 5 edges
+10. `ADR 0002: Preservation over Impermanence` - 5 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `prek pre-commit checker` --semantically_similar_to--> `prek Pre-commit Tool`  [INFERRED] [semantically similar]
@@ -56,7 +59,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (22 total, 5 thin omitted)
+## Communities (25 total, 5 thin omitted)
 
 ### Community 0 - "Den Framework Core"
 Cohesion: 0.18
@@ -122,8 +125,20 @@ Nodes (10): Adding a new test, Adding host-specific tests, How to run, Local (on
 Cohesion: 0.18
 Nodes (10): Check last result, Den configuration, Failure behavior, How it works internally, How to use, No automatic polling, Trigger an upgrade, Upgrade Service (+2 more)
 
+### Community 22 - "Community 22"
+Cohesion: 0.25
+Nodes (7): Dell XPS 9640, Den configuration, Disk layout (disko), Hardware, HITL provisioning, Regenerating facter report, User preservation
+
+### Community 23 - "Community 23"
+Cohesion: 0.33
+Nodes (5): Boot sequence, Den configuration, Ephemeral Root, Shared across hosts, What it does
+
+### Community 24 - "Community 24"
+Cohesion: 0.40
+Nodes (4): Den configuration, Preservation Base, Preservation philosophy, What it preserves
+
 ## Knowledge Gaps
-- **94 isolated node(s):** `Description`, `Linked Issue`, `Checklist`, `Breaking Changes`, `Architecture` (+89 more)
+- **107 isolated node(s):** `Description`, `Linked Issue`, `Checklist`, `Breaking Changes`, `Architecture` (+102 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **5 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -131,11 +146,11 @@ Nodes (10): Check last result, Den configuration, Failure behavior, How it works
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `SNROS` connect `Project Tooling` to `Pre-commit Pipeline`?**
-  _High betweenness centrality (0.022) - this node is a cross-community bridge._
+  _High betweenness centrality (0.017) - this node is a cross-community bridge._
 - **Why does `prek Pre-commit Tool` connect `Pre-commit Pipeline` to `Project Tooling`?**
-  _High betweenness centrality (0.009) - this node is a cross-community bridge._
+  _High betweenness centrality (0.007) - this node is a cross-community bridge._
 - **What connects `Tests that should pass on any SNROS host.`, `Description`, `Linked Issue` to the rest of the system?**
-  _95 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _108 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Project Tooling` be split into smaller, more focused modules?**
   _Cohesion score 0.1111111111111111 - nodes in this community are weakly interconnected._
 - **Should `Community 11` be split into smaller, more focused modules?**
