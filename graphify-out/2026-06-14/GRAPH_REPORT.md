@@ -1,16 +1,16 @@
-# Graph Report - mynixos.feat-8-testinfra  (2026-06-14)
+# Graph Report - mynixos.feat-33-nix-helpers  (2026-06-13)
 
 ## Corpus Check
-- 16 files · ~4,179 words
+- 13 files · ~3,830 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 126 nodes · 108 edges · 21 communities (16 shown, 5 thin omitted)
+- 106 nodes · 91 edges · 18 communities (14 shown, 4 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 1 edges (avg confidence: 0.95)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `8914a442`
+- Built from commit: `b637abe9`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -33,8 +33,6 @@
 - [[_COMMUNITY_Community 15|Community 15]]
 - [[_COMMUNITY_Community 16|Community 16]]
 - [[_COMMUNITY_Community 17|Community 17]]
-- [[_COMMUNITY_Community 18|Community 18]]
-- [[_COMMUNITY_Community 19|Community 19]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `SNROS` - 12 edges
@@ -46,7 +44,7 @@
 7. `ADR 0002: Preservation over Impermanence` - 5 edges
 8. `Domain Docs` - 5 edges
 9. `Add a New Module` - 5 edges
-10. `Testinfra` - 5 edges
+10. `Agent skills` - 4 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `prek pre-commit checker` --semantically_similar_to--> `prek Pre-commit Tool`  [INFERRED] [semantically similar]
@@ -55,7 +53,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (21 total, 5 thin omitted)
+## Communities (18 total, 4 thin omitted)
 
 ### Community 0 - "Den Framework Core"
 Cohesion: 0.18
@@ -113,23 +111,19 @@ Nodes (3): Documentation, Project Links, SNROS
 Cohesion: 0.29
 Nodes (6): Den configuration, NixOS Helpers, Post-deploy verification, Preservation, Standalone evaluation, What it does
 
-### Community 18 - "Community 18"
-Cohesion: 0.18
-Nodes (10): Adding a new test, Adding host-specific tests, How to run, Local (on the machine itself), Python dependencies, Remote (SSH to a host), Specific test file, Test structure (+2 more)
-
 ## Knowledge Gaps
-- **76 isolated node(s):** `Description`, `Linked Issue`, `Checklist`, `Breaking Changes`, `Architecture` (+71 more)
+- **69 isolated node(s):** `Description`, `Linked Issue`, `Checklist`, `Breaking Changes`, `Architecture` (+64 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **5 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **4 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `SNROS` connect `Project Tooling` to `Pre-commit Pipeline`, `Community 11`?**
-  _High betweenness centrality (0.031) - this node is a cross-community bridge._
+  _High betweenness centrality (0.045) - this node is a cross-community bridge._
 - **Why does `prek Pre-commit Tool` connect `Pre-commit Pipeline` to `Project Tooling`?**
-  _High betweenness centrality (0.012) - this node is a cross-community bridge._
-- **What connects `Tests that should pass on any SNROS host.`, `Description`, `Linked Issue` to the rest of the system?**
-  _77 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _High betweenness centrality (0.017) - this node is a cross-community bridge._
+- **What connects `Description`, `Linked Issue`, `Checklist` to the rest of the system?**
+  _69 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Project Tooling` be split into smaller, more focused modules?**
   _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._

@@ -4,96 +4,6 @@
   "graph": {},
   "nodes": [
     {
-      "label": "conftest.py",
-      "file_type": "code",
-      "source_file": "tests/conftest.py",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "tests_conftest",
-      "community": 20,
-      "norm_label": "conftest.py"
-    },
-    {
-      "label": "pytest_addoption()",
-      "file_type": "code",
-      "source_file": "tests/conftest.py",
-      "source_location": "L4",
-      "_origin": "ast",
-      "id": "tests_conftest_pytest_addoption",
-      "community": 20,
-      "norm_label": "pytest_addoption()"
-    },
-    {
-      "label": "host()",
-      "file_type": "code",
-      "source_file": "tests/conftest.py",
-      "source_location": "L14",
-      "_origin": "ast",
-      "id": "tests_conftest_host",
-      "community": 20,
-      "norm_label": "host()"
-    },
-    {
-      "label": "test_common.py",
-      "file_type": "code",
-      "source_file": "tests/hosts/test_common.py",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "hosts_test_common",
-      "community": 19,
-      "norm_label": "test_common.py"
-    },
-    {
-      "label": "test_user_snregales_exists()",
-      "file_type": "code",
-      "source_file": "tests/hosts/test_common.py",
-      "source_location": "L4",
-      "_origin": "ast",
-      "id": "hosts_test_common_test_user_snregales_exists",
-      "community": 19,
-      "norm_label": "test_user_snregales_exists()"
-    },
-    {
-      "label": "test_nix_daemon_running()",
-      "file_type": "code",
-      "source_file": "tests/hosts/test_common.py",
-      "source_location": "L9",
-      "_origin": "ast",
-      "id": "hosts_test_common_test_nix_daemon_running",
-      "community": 19,
-      "norm_label": "test_nix_daemon_running()"
-    },
-    {
-      "label": "test_nixos_rebuild_available()",
-      "file_type": "code",
-      "source_file": "tests/hosts/test_common.py",
-      "source_location": "L15",
-      "_origin": "ast",
-      "id": "hosts_test_common_test_nixos_rebuild_available",
-      "community": 19,
-      "norm_label": "test_nixos_rebuild_available()"
-    },
-    {
-      "label": "test_nix_flake_enabled()",
-      "file_type": "code",
-      "source_file": "tests/hosts/test_common.py",
-      "source_location": "L20",
-      "_origin": "ast",
-      "id": "hosts_test_common_test_nix_flake_enabled",
-      "community": 19,
-      "norm_label": "test_nix_flake_enabled()"
-    },
-    {
-      "label": "Tests that should pass on any SNROS host.",
-      "file_type": "rationale",
-      "source_file": "tests/hosts/test_common.py",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "hosts_test_common_rationale_1",
-      "community": 19,
-      "norm_label": "tests that should pass on any snros host."
-    },
-    {
       "label": "PULL_REQUEST_TEMPLATE.md",
       "file_type": "document",
       "source_file": ".github/PULL_REQUEST_TEMPLATE.md",
@@ -984,116 +894,6 @@
       "norm_label": "post-deploy verification"
     },
     {
-      "label": "testinfra.md",
-      "file_type": "document",
-      "source_file": "docs/reference/modules/testinfra.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "modules_testinfra",
-      "community": 18,
-      "norm_label": "testinfra.md"
-    },
-    {
-      "label": "Testinfra",
-      "file_type": "document",
-      "source_file": "docs/reference/modules/testinfra.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "modules_testinfra_testinfra",
-      "community": 18,
-      "norm_label": "testinfra"
-    },
-    {
-      "label": "What it does",
-      "file_type": "document",
-      "source_file": "docs/reference/modules/testinfra.md",
-      "source_location": "L5",
-      "_origin": "ast",
-      "id": "modules_testinfra_what_it_does",
-      "community": 18,
-      "norm_label": "what it does"
-    },
-    {
-      "label": "How to run",
-      "file_type": "document",
-      "source_file": "docs/reference/modules/testinfra.md",
-      "source_location": "L12",
-      "_origin": "ast",
-      "id": "modules_testinfra_how_to_run",
-      "community": 18,
-      "norm_label": "how to run"
-    },
-    {
-      "label": "Local (on the machine itself)",
-      "file_type": "document",
-      "source_file": "docs/reference/modules/testinfra.md",
-      "source_location": "L14",
-      "_origin": "ast",
-      "id": "modules_testinfra_local_on_the_machine_itself",
-      "community": 18,
-      "norm_label": "local (on the machine itself)"
-    },
-    {
-      "label": "Remote (SSH to a host)",
-      "file_type": "document",
-      "source_file": "docs/reference/modules/testinfra.md",
-      "source_location": "L20",
-      "_origin": "ast",
-      "id": "modules_testinfra_remote_ssh_to_a_host",
-      "community": 18,
-      "norm_label": "remote (ssh to a host)"
-    },
-    {
-      "label": "Specific test file",
-      "file_type": "document",
-      "source_file": "docs/reference/modules/testinfra.md",
-      "source_location": "L26",
-      "_origin": "ast",
-      "id": "modules_testinfra_specific_test_file",
-      "community": 18,
-      "norm_label": "specific test file"
-    },
-    {
-      "label": "Test structure",
-      "file_type": "document",
-      "source_file": "docs/reference/modules/testinfra.md",
-      "source_location": "L32",
-      "_origin": "ast",
-      "id": "modules_testinfra_test_structure",
-      "community": 18,
-      "norm_label": "test structure"
-    },
-    {
-      "label": "Adding a new test",
-      "file_type": "document",
-      "source_file": "docs/reference/modules/testinfra.md",
-      "source_location": "L41",
-      "_origin": "ast",
-      "id": "modules_testinfra_adding_a_new_test",
-      "community": 18,
-      "norm_label": "adding a new test"
-    },
-    {
-      "label": "Adding host-specific tests",
-      "file_type": "document",
-      "source_file": "docs/reference/modules/testinfra.md",
-      "source_location": "L62",
-      "_origin": "ast",
-      "id": "modules_testinfra_adding_host_specific_tests",
-      "community": 18,
-      "norm_label": "adding host-specific tests"
-    },
-    {
-      "label": "Python dependencies",
-      "file_type": "document",
-      "source_file": "docs/reference/modules/testinfra.md",
-      "source_location": "L76",
-      "_origin": "ast",
-      "id": "modules_testinfra_python_dependencies",
-      "community": 18,
-      "norm_label": "python dependencies"
-    },
-    {
       "label": "Check Workflow",
       "file_type": "code",
       "source_file": ".github/workflows/check.yaml",
@@ -1317,76 +1117,6 @@
     }
   ],
   "links": [
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "tests/conftest.py",
-      "source_location": "L14",
-      "weight": 1.0,
-      "source": "tests_conftest",
-      "target": "tests_conftest_host",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "tests/conftest.py",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "tests_conftest",
-      "target": "tests_conftest_pytest_addoption",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "tests/hosts/test_common.py",
-      "source_location": "L9",
-      "weight": 1.0,
-      "source": "hosts_test_common",
-      "target": "hosts_test_common_test_nix_daemon_running",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "tests/hosts/test_common.py",
-      "source_location": "L20",
-      "weight": 1.0,
-      "source": "hosts_test_common",
-      "target": "hosts_test_common_test_nix_flake_enabled",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "tests/hosts/test_common.py",
-      "source_location": "L15",
-      "weight": 1.0,
-      "source": "hosts_test_common",
-      "target": "hosts_test_common_test_nixos_rebuild_available",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "tests/hosts/test_common.py",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "hosts_test_common",
-      "target": "hosts_test_common_test_user_snregales_exists",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "tests/hosts/test_common.py",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "hosts_test_common_rationale_1",
-      "target": "hosts_test_common",
-      "confidence_score": 1.0
-    },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
@@ -2143,9 +1873,9 @@
       "source_file": "docs/reference/modules/nix-helpers.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "modules_nix_helpers",
-      "target": "modules_nix_helpers_nixos_helpers"
+      "target": "modules_nix_helpers_nixos_helpers",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2153,9 +1883,9 @@
       "source_file": "docs/reference/modules/nix-helpers.md",
       "source_location": "L12",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "modules_nix_helpers_nixos_helpers",
-      "target": "modules_nix_helpers_den_configuration"
+      "target": "modules_nix_helpers_den_configuration",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2163,9 +1893,9 @@
       "source_file": "docs/reference/modules/nix-helpers.md",
       "source_location": "L36",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "modules_nix_helpers_nixos_helpers",
-      "target": "modules_nix_helpers_post_deploy_verification"
+      "target": "modules_nix_helpers_post_deploy_verification",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2173,9 +1903,9 @@
       "source_file": "docs/reference/modules/nix-helpers.md",
       "source_location": "L21",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "modules_nix_helpers_nixos_helpers",
-      "target": "modules_nix_helpers_preservation"
+      "target": "modules_nix_helpers_preservation",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2183,9 +1913,9 @@
       "source_file": "docs/reference/modules/nix-helpers.md",
       "source_location": "L29",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "modules_nix_helpers_nixos_helpers",
-      "target": "modules_nix_helpers_standalone_evaluation"
+      "target": "modules_nix_helpers_standalone_evaluation",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2193,108 +1923,8 @@
       "source_file": "docs/reference/modules/nix-helpers.md",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "modules_nix_helpers_nixos_helpers",
-      "target": "modules_nix_helpers_what_it_does"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/reference/modules/testinfra.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "modules_testinfra",
-      "target": "modules_testinfra_testinfra",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/reference/modules/testinfra.md",
-      "source_location": "L12",
-      "weight": 1.0,
-      "source": "modules_testinfra_testinfra",
-      "target": "modules_testinfra_how_to_run",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/reference/modules/testinfra.md",
-      "source_location": "L76",
-      "weight": 1.0,
-      "source": "modules_testinfra_testinfra",
-      "target": "modules_testinfra_python_dependencies",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/reference/modules/testinfra.md",
-      "source_location": "L32",
-      "weight": 1.0,
-      "source": "modules_testinfra_testinfra",
-      "target": "modules_testinfra_test_structure",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/reference/modules/testinfra.md",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "modules_testinfra_testinfra",
-      "target": "modules_testinfra_what_it_does",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/reference/modules/testinfra.md",
-      "source_location": "L14",
-      "weight": 1.0,
-      "source": "modules_testinfra_how_to_run",
-      "target": "modules_testinfra_local_on_the_machine_itself",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/reference/modules/testinfra.md",
-      "source_location": "L20",
-      "weight": 1.0,
-      "source": "modules_testinfra_how_to_run",
-      "target": "modules_testinfra_remote_ssh_to_a_host",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/reference/modules/testinfra.md",
-      "source_location": "L26",
-      "weight": 1.0,
-      "source": "modules_testinfra_how_to_run",
-      "target": "modules_testinfra_specific_test_file",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/reference/modules/testinfra.md",
-      "source_location": "L41",
-      "weight": 1.0,
-      "source": "modules_testinfra_test_structure",
-      "target": "modules_testinfra_adding_a_new_test",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/reference/modules/testinfra.md",
-      "source_location": "L62",
-      "weight": 1.0,
-      "source": "modules_testinfra_test_structure",
-      "target": "modules_testinfra_adding_host_specific_tests",
+      "target": "modules_nix_helpers_what_it_does",
       "confidence_score": 1.0
     },
     {
@@ -2399,5 +2029,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "8914a442d51ad610f7121158eb26e5c2987e0ee9"
+  "built_at_commit": "b637abe9cb2423b2ffd5742ae94a08cd81d539da"
 }
