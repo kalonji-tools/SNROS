@@ -5,8 +5,10 @@
 The hardware-facing infrastructure that the machine cannot function without.
 
 - **Host**: A specific physical machine identified by its hardware model name (e.g., `dell-xps-9640`). Each host has its own nixos-facter report, ZFS pool layout, and NixOS configuration. New hardware means a new host, never a migration.
-- **Ephemeral Root**: The root filesystem is wiped on every boot. All state must be explicitly opted into persistence via Preservation.
-- **Preservation**: A NixOS module for declarative opt-in persistence on an ephemeral root system. Successor to impermanence with a cleaner API.
+- **Ephemeral Root**: The root ZFS dataset is rolled back to a blank snapshot on every boot. All state on root is lost unless it lives on a separate dataset or is bind-mounted via Preservation.
+- **Persistent Volume**: The ZFS dataset (`zroot/persistent`) that survives root rollback. Preservation reads from here. Mounted at `/persistent`.
+- **Preservation**: A NixOS module that declares which paths from the persistent volume are bind-mounted into the ephemeral root (e.g., `/persistent/etc/machine-id` → `/etc/machine-id`). Does not own the ZFS layout — only the bind-mount declarations.
+- **Disko**: Declarative disk partitioning. The disk layout (GPT, ESP, LUKS, ZFS datasets) is defined in Nix and consumed by both `disko-install` (initial formatting) and NixOS (boot-time mounting). Single source of truth for disk topology.
 
 ## Tool Categories
 
