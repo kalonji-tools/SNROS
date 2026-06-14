@@ -11,3 +11,4 @@ graphify-out/.graphify_python
 graphify-out/.graphify_root
 site/
 .venv/
+__pycache__/
