@@ -220,7 +220,7 @@
       "source_location": "L79",
       "_origin": "ast",
       "id": "claude_agent_skills",
-      "community": 11,
+      "community": 2,
       "norm_label": "agent skills"
     },
     {
@@ -230,7 +230,7 @@
       "source_location": "L81",
       "_origin": "ast",
       "id": "claude_issue_tracker",
-      "community": 11,
+      "community": 2,
       "norm_label": "issue tracker"
     },
     {
@@ -240,7 +240,7 @@
       "source_location": "L85",
       "_origin": "ast",
       "id": "claude_triage_labels",
-      "community": 11,
+      "community": 2,
       "norm_label": "triage labels"
     },
     {
@@ -250,7 +250,7 @@
       "source_location": "L89",
       "_origin": "ast",
       "id": "claude_domain_docs",
-      "community": 11,
+      "community": 2,
       "norm_label": "domain docs"
     },
     {
@@ -1094,6 +1094,146 @@
       "norm_label": "python dependencies"
     },
     {
+      "label": "vm-tests.md",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/vm-tests.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "modules_vm_tests",
+      "community": 11,
+      "norm_label": "vm-tests.md"
+    },
+    {
+      "label": "VM Tests",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/vm-tests.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "modules_vm_tests_vm_tests",
+      "community": 11,
+      "norm_label": "vm tests"
+    },
+    {
+      "label": "What it does",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/vm-tests.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "modules_vm_tests_what_it_does",
+      "community": 11,
+      "norm_label": "what it does"
+    },
+    {
+      "label": "Testing flow",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/vm-tests.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "modules_vm_tests_testing_flow",
+      "community": 11,
+      "norm_label": "testing flow"
+    },
+    {
+      "label": "How to run",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/vm-tests.md",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "modules_vm_tests_how_to_run",
+      "community": 11,
+      "norm_label": "how to run"
+    },
+    {
+      "label": "All checks (includes VM tests)",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/vm-tests.md",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "modules_vm_tests_all_checks_includes_vm_tests",
+      "community": 11,
+      "norm_label": "all checks (includes vm tests)"
+    },
+    {
+      "label": "Single VM test",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/vm-tests.md",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "modules_vm_tests_single_vm_test",
+      "community": 11,
+      "norm_label": "single vm test"
+    },
+    {
+      "label": "Current tests",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/vm-tests.md",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "modules_vm_tests_current_tests",
+      "community": 11,
+      "norm_label": "current tests"
+    },
+    {
+      "label": "Adding a new VM test",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/vm-tests.md",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "modules_vm_tests_adding_a_new_vm_test",
+      "community": 11,
+      "norm_label": "adding a new vm test"
+    },
+    {
+      "label": "Naming convention",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/vm-tests.md",
+      "source_location": "L58",
+      "_origin": "ast",
+      "id": "modules_vm_tests_naming_convention",
+      "community": 11,
+      "norm_label": "naming convention"
+    },
+    {
+      "label": "Common test script commands",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/vm-tests.md",
+      "source_location": "L62",
+      "_origin": "ast",
+      "id": "modules_vm_tests_common_test_script_commands",
+      "community": 11,
+      "norm_label": "common test script commands"
+    },
+    {
+      "label": "Testing a host configuration (when #22 lands)",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/vm-tests.md",
+      "source_location": "L72",
+      "_origin": "ast",
+      "id": "modules_vm_tests_testing_a_host_configuration_when_22_lands",
+      "community": 11,
+      "norm_label": "testing a host configuration (when #22 lands)"
+    },
+    {
+      "label": "CI considerations",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/vm-tests.md",
+      "source_location": "L87",
+      "_origin": "ast",
+      "id": "modules_vm_tests_ci_considerations",
+      "community": 11,
+      "norm_label": "ci considerations"
+    },
+    {
+      "label": "References",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/vm-tests.md",
+      "source_location": "L91",
+      "_origin": "ast",
+      "id": "modules_vm_tests_references",
+      "community": 11,
+      "norm_label": "references"
+    },
+    {
       "label": "Check Workflow",
       "file_type": "code",
       "source_file": ".github/workflows/check.yaml",
@@ -1323,9 +1463,9 @@
       "source_file": "tests/conftest.py",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_conftest",
-      "target": "tests_conftest_host",
-      "confidence_score": 1.0
+      "target": "tests_conftest_host"
     },
     {
       "relation": "contains",
@@ -1333,9 +1473,9 @@
       "source_file": "tests/conftest.py",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_conftest",
-      "target": "tests_conftest_pytest_addoption",
-      "confidence_score": 1.0
+      "target": "tests_conftest_pytest_addoption"
     },
     {
       "relation": "contains",
@@ -1343,9 +1483,9 @@
       "source_file": "tests/hosts/test_common.py",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hosts_test_common",
-      "target": "hosts_test_common_test_nix_daemon_running",
-      "confidence_score": 1.0
+      "target": "hosts_test_common_test_nix_daemon_running"
     },
     {
       "relation": "contains",
@@ -1353,9 +1493,9 @@
       "source_file": "tests/hosts/test_common.py",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hosts_test_common",
-      "target": "hosts_test_common_test_nix_flake_enabled",
-      "confidence_score": 1.0
+      "target": "hosts_test_common_test_nix_flake_enabled"
     },
     {
       "relation": "contains",
@@ -1363,9 +1503,9 @@
       "source_file": "tests/hosts/test_common.py",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hosts_test_common",
-      "target": "hosts_test_common_test_nixos_rebuild_available",
-      "confidence_score": 1.0
+      "target": "hosts_test_common_test_nixos_rebuild_available"
     },
     {
       "relation": "contains",
@@ -1373,9 +1513,9 @@
       "source_file": "tests/hosts/test_common.py",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hosts_test_common",
-      "target": "hosts_test_common_test_user_snregales_exists",
-      "confidence_score": 1.0
+      "target": "hosts_test_common_test_user_snregales_exists"
     },
     {
       "relation": "rationale_for",
@@ -1383,9 +1523,9 @@
       "source_file": "tests/hosts/test_common.py",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hosts_test_common_rationale_1",
-      "target": "hosts_test_common",
-      "confidence_score": 1.0
+      "target": "hosts_test_common"
     },
     {
       "relation": "contains",
@@ -2203,9 +2343,9 @@
       "source_file": "docs/reference/modules/testinfra.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "modules_testinfra",
-      "target": "modules_testinfra_testinfra",
-      "confidence_score": 1.0
+      "target": "modules_testinfra_testinfra"
     },
     {
       "relation": "contains",
@@ -2213,9 +2353,9 @@
       "source_file": "docs/reference/modules/testinfra.md",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "modules_testinfra_testinfra",
-      "target": "modules_testinfra_how_to_run",
-      "confidence_score": 1.0
+      "target": "modules_testinfra_how_to_run"
     },
     {
       "relation": "contains",
@@ -2223,9 +2363,9 @@
       "source_file": "docs/reference/modules/testinfra.md",
       "source_location": "L76",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "modules_testinfra_testinfra",
-      "target": "modules_testinfra_python_dependencies",
-      "confidence_score": 1.0
+      "target": "modules_testinfra_python_dependencies"
     },
     {
       "relation": "contains",
@@ -2233,9 +2373,9 @@
       "source_file": "docs/reference/modules/testinfra.md",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "modules_testinfra_testinfra",
-      "target": "modules_testinfra_test_structure",
-      "confidence_score": 1.0
+      "target": "modules_testinfra_test_structure"
     },
     {
       "relation": "contains",
@@ -2243,9 +2383,9 @@
       "source_file": "docs/reference/modules/testinfra.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "modules_testinfra_testinfra",
-      "target": "modules_testinfra_what_it_does",
-      "confidence_score": 1.0
+      "target": "modules_testinfra_what_it_does"
     },
     {
       "relation": "contains",
@@ -2253,9 +2393,9 @@
       "source_file": "docs/reference/modules/testinfra.md",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "modules_testinfra_how_to_run",
-      "target": "modules_testinfra_local_on_the_machine_itself",
-      "confidence_score": 1.0
+      "target": "modules_testinfra_local_on_the_machine_itself"
     },
     {
       "relation": "contains",
@@ -2263,9 +2403,9 @@
       "source_file": "docs/reference/modules/testinfra.md",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "modules_testinfra_how_to_run",
-      "target": "modules_testinfra_remote_ssh_to_a_host",
-      "confidence_score": 1.0
+      "target": "modules_testinfra_remote_ssh_to_a_host"
     },
     {
       "relation": "contains",
@@ -2273,9 +2413,9 @@
       "source_file": "docs/reference/modules/testinfra.md",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "modules_testinfra_how_to_run",
-      "target": "modules_testinfra_specific_test_file",
-      "confidence_score": 1.0
+      "target": "modules_testinfra_specific_test_file"
     },
     {
       "relation": "contains",
@@ -2283,9 +2423,9 @@
       "source_file": "docs/reference/modules/testinfra.md",
       "source_location": "L41",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "modules_testinfra_test_structure",
-      "target": "modules_testinfra_adding_a_new_test",
-      "confidence_score": 1.0
+      "target": "modules_testinfra_adding_a_new_test"
     },
     {
       "relation": "contains",
@@ -2293,8 +2433,138 @@
       "source_file": "docs/reference/modules/testinfra.md",
       "source_location": "L62",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "modules_testinfra_test_structure",
-      "target": "modules_testinfra_adding_host_specific_tests",
+      "target": "modules_testinfra_adding_host_specific_tests"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/modules/vm-tests.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "modules_vm_tests",
+      "target": "modules_vm_tests_vm_tests",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/modules/vm-tests.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "modules_vm_tests_vm_tests",
+      "target": "modules_vm_tests_adding_a_new_vm_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/modules/vm-tests.md",
+      "source_location": "L87",
+      "weight": 1.0,
+      "source": "modules_vm_tests_vm_tests",
+      "target": "modules_vm_tests_ci_considerations",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/modules/vm-tests.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "modules_vm_tests_vm_tests",
+      "target": "modules_vm_tests_current_tests",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/modules/vm-tests.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "modules_vm_tests_vm_tests",
+      "target": "modules_vm_tests_how_to_run",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/modules/vm-tests.md",
+      "source_location": "L91",
+      "weight": 1.0,
+      "source": "modules_vm_tests_vm_tests",
+      "target": "modules_vm_tests_references",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/modules/vm-tests.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "modules_vm_tests_vm_tests",
+      "target": "modules_vm_tests_testing_flow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/modules/vm-tests.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "modules_vm_tests_vm_tests",
+      "target": "modules_vm_tests_what_it_does",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/modules/vm-tests.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "modules_vm_tests_how_to_run",
+      "target": "modules_vm_tests_all_checks_includes_vm_tests",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/modules/vm-tests.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "modules_vm_tests_how_to_run",
+      "target": "modules_vm_tests_single_vm_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/modules/vm-tests.md",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "modules_vm_tests_adding_a_new_vm_test",
+      "target": "modules_vm_tests_common_test_script_commands",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/modules/vm-tests.md",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "modules_vm_tests_adding_a_new_vm_test",
+      "target": "modules_vm_tests_naming_convention",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/modules/vm-tests.md",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "modules_vm_tests_adding_a_new_vm_test",
+      "target": "modules_vm_tests_testing_a_host_configuration_when_22_lands",
       "confidence_score": 1.0
     },
     {
@@ -2399,5 +2669,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "8914a442d51ad610f7121158eb26e5c2987e0ee9"
+  "built_at_commit": "e11602dd4dade9b615dbb14cf6be281947fd3d1f"
 }

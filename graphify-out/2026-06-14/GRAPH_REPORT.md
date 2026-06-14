@@ -1,16 +1,16 @@
-# Graph Report - mynixos.feat-8-testinfra  (2026-06-14)
+# Graph Report - mynixos.feat-9-vm-tests  (2026-06-14)
 
 ## Corpus Check
-- 16 files · ~4,179 words
+- 17 files · ~4,530 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 126 nodes · 108 edges · 21 communities (16 shown, 5 thin omitted)
+- 140 nodes · 121 edges · 21 communities (16 shown, 5 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 1 edges (avg confidence: 0.95)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `8914a442`
+- Built from commit: `e11602dd`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -38,15 +38,15 @@
 
 ## God Nodes (most connected - your core abstractions)
 1. `SNROS` - 12 edges
-2. `Den Patterns` - 7 edges
-3. `SNROS Domain Glossary` - 6 edges
-4. `NixOS Helpers` - 6 edges
-5. `SNROS` - 5 edges
-6. `ADR 0001: devenv over flake-native dev shell` - 5 edges
-7. `ADR 0002: Preservation over Impermanence` - 5 edges
-8. `Domain Docs` - 5 edges
-9. `Add a New Module` - 5 edges
-10. `Testinfra` - 5 edges
+2. `VM Tests` - 8 edges
+3. `Den Patterns` - 7 edges
+4. `SNROS Domain Glossary` - 6 edges
+5. `NixOS Helpers` - 6 edges
+6. `SNROS` - 5 edges
+7. `ADR 0001: devenv over flake-native dev shell` - 5 edges
+8. `ADR 0002: Preservation over Impermanence` - 5 edges
+9. `Domain Docs` - 5 edges
+10. `Add a New Module` - 5 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `prek pre-commit checker` --semantically_similar_to--> `prek Pre-commit Tool`  [INFERRED] [semantically similar]
@@ -66,8 +66,8 @@ Cohesion: 0.18
 Nodes (10): Applying a Host Configuration, Development, Getting Started, Hooks, License, Overview, Prerequisites, Setup (+2 more)
 
 ### Community 2 - "Project Tooling"
-Cohesion: 0.14
-Nodes (14): Architecture, Building, Conventions, den Framework, modules/dendritic.nix, Dendritic Pattern, flake-file, flake-parts (+6 more)
+Cohesion: 0.11
+Nodes (18): Agent skills, Architecture, Building, Conventions, den Framework, modules/dendritic.nix, Dendritic Pattern, Domain docs (+10 more)
 
 ### Community 3 - "Pre-commit Pipeline"
 Cohesion: 0.33
@@ -90,8 +90,8 @@ Cohesion: 0.40
 Nodes (4): Breaking Changes, Checklist, Description, Linked Issue
 
 ### Community 11 - "Community 11"
-Cohesion: 0.50
-Nodes (4): Agent skills, Domain docs, Issue tracker, Triage labels
+Cohesion: 0.14
+Nodes (13): Adding a new VM test, All checks (includes VM tests), CI considerations, Common test script commands, Current tests, How to run, Naming convention, References (+5 more)
 
 ### Community 13 - "Community 13"
 Cohesion: 0.25
@@ -118,18 +118,20 @@ Cohesion: 0.18
 Nodes (10): Adding a new test, Adding host-specific tests, How to run, Local (on the machine itself), Python dependencies, Remote (SSH to a host), Specific test file, Test structure (+2 more)
 
 ## Knowledge Gaps
-- **76 isolated node(s):** `Description`, `Linked Issue`, `Checklist`, `Breaking Changes`, `Architecture` (+71 more)
+- **86 isolated node(s):** `Description`, `Linked Issue`, `Checklist`, `Breaking Changes`, `Architecture` (+81 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **5 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `SNROS` connect `Project Tooling` to `Pre-commit Pipeline`, `Community 11`?**
-  _High betweenness centrality (0.031) - this node is a cross-community bridge._
+- **Why does `SNROS` connect `Project Tooling` to `Pre-commit Pipeline`?**
+  _High betweenness centrality (0.025) - this node is a cross-community bridge._
 - **Why does `prek Pre-commit Tool` connect `Pre-commit Pipeline` to `Project Tooling`?**
-  _High betweenness centrality (0.012) - this node is a cross-community bridge._
+  _High betweenness centrality (0.010) - this node is a cross-community bridge._
 - **What connects `Tests that should pass on any SNROS host.`, `Description`, `Linked Issue` to the rest of the system?**
-  _77 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _87 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Project Tooling` be split into smaller, more focused modules?**
+  _Cohesion score 0.1111111111111111 - nodes in this community are weakly interconnected._
+- **Should `Community 11` be split into smaller, more focused modules?**
   _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._
