@@ -287,7 +287,7 @@
       "label": "Tool Categories",
       "file_type": "document",
       "source_file": "CONTEXT.md",
-      "source_location": "L11",
+      "source_location": "L13",
       "_origin": "ast",
       "id": "context_tool_categories",
       "community": 14,
@@ -297,7 +297,7 @@
       "label": "Theming",
       "file_type": "document",
       "source_file": "CONTEXT.md",
-      "source_location": "L17",
+      "source_location": "L19",
       "_origin": "ast",
       "id": "context_theming",
       "community": 14,
@@ -307,7 +307,7 @@
       "label": "Shell",
       "file_type": "document",
       "source_file": "CONTEXT.md",
-      "source_location": "L22",
+      "source_location": "L24",
       "_origin": "ast",
       "id": "context_shell",
       "community": 14,
@@ -317,7 +317,7 @@
       "label": "Terminal",
       "file_type": "document",
       "source_file": "CONTEXT.md",
-      "source_location": "L28",
+      "source_location": "L30",
       "_origin": "ast",
       "id": "context_terminal",
       "community": 14,
@@ -1392,6 +1392,86 @@
       "id": "modules_upgrade_no_automatic_polling",
       "community": 21,
       "norm_label": "no automatic polling"
+    },
+    {
+      "label": "vm-disko-test.md",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/vm-disko-test.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "modules_vm_disko_test",
+      "community": 25,
+      "norm_label": "vm-disko-test.md"
+    },
+    {
+      "label": "VM Integration Tests (Disko + Preservation)",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/vm-disko-test.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "modules_vm_disko_test_vm_integration_tests_disko_preservation",
+      "community": 25,
+      "norm_label": "vm integration tests (disko + preservation)"
+    },
+    {
+      "label": "Tests",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/vm-disko-test.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "modules_vm_disko_test_tests",
+      "community": 25,
+      "norm_label": "tests"
+    },
+    {
+      "label": "How to run",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/vm-disko-test.md",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "modules_vm_disko_test_how_to_run",
+      "community": 25,
+      "norm_label": "how to run"
+    },
+    {
+      "label": "All checks",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/vm-disko-test.md",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "modules_vm_disko_test_all_checks",
+      "community": 25,
+      "norm_label": "all checks"
+    },
+    {
+      "label": "Individual tests",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/vm-disko-test.md",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "modules_vm_disko_test_individual_tests",
+      "community": 25,
+      "norm_label": "individual tests"
+    },
+    {
+      "label": "Shared disko layout",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/vm-disko-test.md",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "modules_vm_disko_test_shared_disko_layout",
+      "community": 25,
+      "norm_label": "shared disko layout"
+    },
+    {
+      "label": "When to run",
+      "file_type": "document",
+      "source_file": "docs/reference/modules/vm-disko-test.md",
+      "source_location": "L54",
+      "_origin": "ast",
+      "id": "modules_vm_disko_test_when_to_run",
+      "community": 25,
+      "norm_label": "when to run"
     },
     {
       "label": "vm-tests.md",
@@ -2583,9 +2663,9 @@
       "source_file": "docs/reference/modules/dell-xps-9640.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "modules_dell_xps_9640",
-      "target": "modules_dell_xps_9640_dell_xps_9640",
-      "confidence_score": 1.0
+      "target": "modules_dell_xps_9640_dell_xps_9640"
     },
     {
       "relation": "contains",
@@ -2593,9 +2673,9 @@
       "source_file": "docs/reference/modules/dell-xps-9640.md",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "modules_dell_xps_9640_dell_xps_9640",
-      "target": "modules_dell_xps_9640_den_configuration",
-      "confidence_score": 1.0
+      "target": "modules_dell_xps_9640_den_configuration"
     },
     {
       "relation": "contains",
@@ -2603,9 +2683,9 @@
       "source_file": "docs/reference/modules/dell-xps-9640.md",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "modules_dell_xps_9640_dell_xps_9640",
-      "target": "modules_dell_xps_9640_disk_layout_disko",
-      "confidence_score": 1.0
+      "target": "modules_dell_xps_9640_disk_layout_disko"
     },
     {
       "relation": "contains",
@@ -2613,9 +2693,9 @@
       "source_file": "docs/reference/modules/dell-xps-9640.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "modules_dell_xps_9640_dell_xps_9640",
-      "target": "modules_dell_xps_9640_hardware",
-      "confidence_score": 1.0
+      "target": "modules_dell_xps_9640_hardware"
     },
     {
       "relation": "contains",
@@ -2623,9 +2703,9 @@
       "source_file": "docs/reference/modules/dell-xps-9640.md",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "modules_dell_xps_9640_dell_xps_9640",
-      "target": "modules_dell_xps_9640_hitl_provisioning",
-      "confidence_score": 1.0
+      "target": "modules_dell_xps_9640_hitl_provisioning"
     },
     {
       "relation": "contains",
@@ -2633,9 +2713,9 @@
       "source_file": "docs/reference/modules/dell-xps-9640.md",
       "source_location": "L48",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "modules_dell_xps_9640_dell_xps_9640",
-      "target": "modules_dell_xps_9640_regenerating_facter_report",
-      "confidence_score": 1.0
+      "target": "modules_dell_xps_9640_regenerating_facter_report"
     },
     {
       "relation": "contains",
@@ -2643,9 +2723,9 @@
       "source_file": "docs/reference/modules/dell-xps-9640.md",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "modules_dell_xps_9640_dell_xps_9640",
-      "target": "modules_dell_xps_9640_user_preservation",
-      "confidence_score": 1.0
+      "target": "modules_dell_xps_9640_user_preservation"
     },
     {
       "relation": "contains",
@@ -2653,9 +2733,9 @@
       "source_file": "docs/reference/modules/ephemeral-root.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "modules_ephemeral_root",
-      "target": "modules_ephemeral_root_ephemeral_root",
-      "confidence_score": 1.0
+      "target": "modules_ephemeral_root_ephemeral_root"
     },
     {
       "relation": "contains",
@@ -2663,9 +2743,9 @@
       "source_file": "docs/reference/modules/ephemeral-root.md",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "modules_ephemeral_root_ephemeral_root",
-      "target": "modules_ephemeral_root_boot_sequence",
-      "confidence_score": 1.0
+      "target": "modules_ephemeral_root_boot_sequence"
     },
     {
       "relation": "contains",
@@ -2673,9 +2753,9 @@
       "source_file": "docs/reference/modules/ephemeral-root.md",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "modules_ephemeral_root_ephemeral_root",
-      "target": "modules_ephemeral_root_den_configuration",
-      "confidence_score": 1.0
+      "target": "modules_ephemeral_root_den_configuration"
     },
     {
       "relation": "contains",
@@ -2683,9 +2763,9 @@
       "source_file": "docs/reference/modules/ephemeral-root.md",
       "source_location": "L30",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "modules_ephemeral_root_ephemeral_root",
-      "target": "modules_ephemeral_root_shared_across_hosts",
-      "confidence_score": 1.0
+      "target": "modules_ephemeral_root_shared_across_hosts"
     },
     {
       "relation": "contains",
@@ -2693,9 +2773,9 @@
       "source_file": "docs/reference/modules/ephemeral-root.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "modules_ephemeral_root_ephemeral_root",
-      "target": "modules_ephemeral_root_what_it_does",
-      "confidence_score": 1.0
+      "target": "modules_ephemeral_root_what_it_does"
     },
     {
       "relation": "contains",
@@ -2763,9 +2843,9 @@
       "source_file": "docs/reference/modules/preservation-base.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "modules_preservation_base",
-      "target": "modules_preservation_base_preservation_base",
-      "confidence_score": 1.0
+      "target": "modules_preservation_base_preservation_base"
     },
     {
       "relation": "contains",
@@ -2773,9 +2853,9 @@
       "source_file": "docs/reference/modules/preservation-base.md",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "modules_preservation_base_preservation_base",
-      "target": "modules_preservation_base_den_configuration",
-      "confidence_score": 1.0
+      "target": "modules_preservation_base_den_configuration"
     },
     {
       "relation": "contains",
@@ -2783,9 +2863,9 @@
       "source_file": "docs/reference/modules/preservation-base.md",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "modules_preservation_base_preservation_base",
-      "target": "modules_preservation_base_preservation_philosophy",
-      "confidence_score": 1.0
+      "target": "modules_preservation_base_preservation_philosophy"
     },
     {
       "relation": "contains",
@@ -2793,9 +2873,9 @@
       "source_file": "docs/reference/modules/preservation-base.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "modules_preservation_base_preservation_base",
-      "target": "modules_preservation_base_what_it_preserves",
-      "confidence_score": 1.0
+      "target": "modules_preservation_base_what_it_preserves"
     },
     {
       "relation": "contains",
@@ -2996,6 +3076,76 @@
       "confidence_score": 1.0,
       "source": "modules_upgrade_how_to_use",
       "target": "modules_upgrade_watch_progress"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/modules/vm-disko-test.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "modules_vm_disko_test",
+      "target": "modules_vm_disko_test_vm_integration_tests_disko_preservation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/modules/vm-disko-test.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "modules_vm_disko_test_vm_integration_tests_disko_preservation",
+      "target": "modules_vm_disko_test_how_to_run",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/modules/vm-disko-test.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "modules_vm_disko_test_vm_integration_tests_disko_preservation",
+      "target": "modules_vm_disko_test_shared_disko_layout",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/modules/vm-disko-test.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "modules_vm_disko_test_vm_integration_tests_disko_preservation",
+      "target": "modules_vm_disko_test_tests",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/modules/vm-disko-test.md",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "modules_vm_disko_test_vm_integration_tests_disko_preservation",
+      "target": "modules_vm_disko_test_when_to_run",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/modules/vm-disko-test.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "modules_vm_disko_test_how_to_run",
+      "target": "modules_vm_disko_test_all_checks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/modules/vm-disko-test.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "modules_vm_disko_test_how_to_run",
+      "target": "modules_vm_disko_test_individual_tests",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3229,5 +3379,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "cc5056fe0b26aea0e3452490da21f487a6ee3982"
+  "built_at_commit": "32bf4045c8fcf23ab13837341eb8b048a3e1b304"
 }
