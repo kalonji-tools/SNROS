@@ -318,9 +318,9 @@ wheels = [
 
 [[package]]
 name = "oxi-nixinfra"
-version = "0.1.0"
+version = "0.2.0"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/f9/b9/145d5941126a7cfebad73d3ca67d7914229d960e37fb4c743d7b2fea7e9c/oxi_nixinfra-0.1.0.tar.gz", hash = "sha256:cfb289f11453d7d50259b5f4223231936e258d5b152fd5303c45facb6e348343", size = 37281, upload-time = "2026-06-16T16:19:35.604Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/86/21/288f2cea6e5ff92d26cb1350492646009e69297bee95e7751871c46d7845/oxi_nixinfra-0.2.0.tar.gz", hash = "sha256:81495ebc2978e51948a3bd2f9fadc3d3c578a3bfcda5a3762e83b13ba6b902be", size = 43195, upload-time = "2026-06-16T19:43:09.516Z" }
 
 [[package]]
 name = "oxitest"

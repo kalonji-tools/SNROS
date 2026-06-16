@@ -12,8 +12,7 @@ def test_user_snregales_exists(host: Fixture[Host]) -> None:
 def test_nix_daemon_running(host: Fixture[Host]) -> None:
     service = host.service("nix-daemon")
     assert service.is_running(), "nix-daemon should be running"
-    # TODO: is_enabled() returns False on NixOS because systemctl reports
-    # "linked" (exit 1) instead of "enabled". Fix upstream in oxi-nixinfra.
+    assert service.is_managed(), "nix-daemon should be managed by NixOS"
 
 
 def test_nixos_rebuild_available(host: Fixture[Host]) -> None:
