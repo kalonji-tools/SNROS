@@ -33,7 +33,6 @@ devenv shell -- oxitest tests/hosts/test_common.py -v
 
 ```
 tests/
-├── conftest.py           # oxitest Fixtures registry
 └── hosts/
     └── test_common.py    # Tests for any SNROS host
 ```
