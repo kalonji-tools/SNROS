@@ -9,8 +9,10 @@ docs = [
   "mkdocs-awesome-pages-plugin",
   "mkdocs-git-revision-date-localized-plugin",
 ]
-test = ["pytest", "pytest-testinfra", "paramiko"]
+test = ["oxitest", "oxi-nixinfra"]
 
-[tool.pytest.ini_options]
+[tool.oxitest]
 testpaths = ["tests"]
+strict = "abort"
 markers = ["slow: marks tests that require SSH to a live host"]
+plugins = ["oxi_nixinfra._plugin"]
