@@ -56,7 +56,7 @@ Common oxi-nixinfra modules:
 | Module | Usage |
 |--------|-------|
 | `host.user("name")` | Check user exists, groups, shell |
-| `host.service("name")` | Check service is running/enabled |
+| `host.service("name")` | Check service is running/managed, get enablement status |
 | `host.nix_package("name")` | Check Nix package is installed, get version |
 | `host.nix_option("path")` | Check NixOS option value |
 | `host.file("/path")` | Check file exists, permissions, content |
