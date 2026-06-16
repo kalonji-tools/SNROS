@@ -8,3 +8,4 @@ docs/superpowers/
 site/
 .venv/
 __pycache__/
+.oxitest_cache/
