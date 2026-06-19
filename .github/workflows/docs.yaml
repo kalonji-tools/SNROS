@@ -35,7 +35,7 @@ jobs:
         run: nix profile add nixpkgs#devenv
       - name: Build docs
         run: devenv shell -- mkdocs build --strict
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: site/
       - id: deployment
