@@ -19,7 +19,7 @@ Personal NixOS configuration using the dendritic pattern via the den framework.
 - **Branching**: Feature branches with rebase. PRs required to merge into main.
 - **Commits**: Conventional commits preferred (feat:, fix:, chore:, docs:)
 - **Worktrees**: Use `wt switch --create <branch>` for new work. Bare repo is the hub.
-- **Dev shell**: `devenv shell` — provides prek, nixfmt, uv, graphify. Do NOT use `nix develop`.
+- **Dev shell**: `devenv shell` — provides prek, nixfmt, uv. Do NOT use `nix develop`.
 
 ## Building
 
@@ -45,36 +45,6 @@ nix run .#write-flake
 - `modules/hosts.nix` — host and user entity declarations
 - `modules/<hostname>.nix` — host aspects
 - `modules/<username>.nix` — user aspects
-
-## Graphify
-
-A persistent knowledge graph of the codebase lives in `graphify-out/` (tracked in git). Machine-local files (`.graphify_python`, `.graphify_root`) and build artifacts (`cost.json`, `cache/`) are gitignored.
-
-**Two-commit workflow**: The post-commit hook rebuilds the graph in the background. After it completes, manually stage and commit the results:
-
-```bash
-git add graphify-out/
-GRAPHIFY_SKIP_HOOK=1 git commit -m "chore: sync knowledge graph"
-```
-
-Use `GRAPHIFY_SKIP_HOOK=1` to prevent the hook from firing on the graph-only commit.
-
-```bash
-# Build/rebuild the knowledge graph
-/graphify
-
-# Incremental update (only new/changed files)
-/graphify --update
-
-# Query the graph
-/graphify query "How do host aspects relate to user aspects?"
-
-# Trace a path between concepts
-/graphify path "den.aspects" "nixos"
-
-# Explain a node
-/graphify explain "dendritic.nix"
-```
 
 ## Agent skills
 
