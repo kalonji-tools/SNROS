@@ -9,7 +9,6 @@ docs = [
   "mkdocs-awesome-pages-plugin",
   "mkdocs-git-revision-date-localized-plugin",
 ]
-graph = ["graphifyy"]
 test = ["pytest", "pytest-testinfra", "paramiko"]
 
 [tool.pytest.ini_options]

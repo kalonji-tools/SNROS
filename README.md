@@ -9,7 +9,7 @@ Personal NixOS configurations built with the dendritic pattern.
 
 SNROS structures NixOS system configuration as composable aspects using the [den](https://github.com/denful/den) framework's dendritic pattern. Each aspect encapsulates a concern (a host, a user, a service) that can be mixed and matched across machines.
 
-The flake itself is generated — [flake-file](https://github.com/denful/flake-file) produces `flake.nix` from the module tree, so you never edit it by hand (`nix run .#write-flake` to regenerate). The development workflow is handled by [devenv.sh](https://devenv.sh), which sets up the shell, tooling, and [prek](https://github.com/j178/prek) git hooks in one step. A [graphify](https://github.com/safishamsi/graphify) knowledge graph is kept in sync automatically through post-commit hooks.
+The flake itself is generated — [flake-file](https://github.com/denful/flake-file) produces `flake.nix` from the module tree, so you never edit it by hand (`nix run .#write-flake` to regenerate). The development workflow is handled by [devenv.sh](https://devenv.sh), which sets up the shell, tooling, and [prek](https://github.com/j178/prek) git hooks in one step.
 
 ## Getting Started
 
@@ -62,7 +62,6 @@ All development happens inside `devenv shell`, which provides all required tooli
 - **Branching:** feature branches + PRs with rebase (no merge commits)
 - **Worktrees:** always work in a worktree — `wt switch --create <branch>` ([worktrunk](https://github.com/max-sixty/worktrunk))
 - **Flake regeneration:** `nix run .#write-flake` (never edit `flake.nix` directly)
-- **Graphify:** knowledge graph rebuilds automatically via git hooks
 
 ## License
 
