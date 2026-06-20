@@ -9,10 +9,10 @@ docs = [
   "mkdocs-awesome-pages-plugin",
   "mkdocs-git-revision-date-localized-plugin",
 ]
-test = ["oxitest", "oxi-nixinfra"]
+test = ["oxitest>=1.0.0b2", "oxi-nixinfra>=0.5.0"]
 
 [tool.oxitest]
 testpaths = ["tests"]
 strict = "abort"
 markers = ["slow: marks tests that require SSH to a live host"]
-plugins = ["oxi_nixinfra._plugin"]
+plugins = ["oxi_nixinfra.plugin"]

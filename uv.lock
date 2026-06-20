@@ -318,15 +318,15 @@ wheels = [
 
 [[package]]
 name = "oxi-nixinfra"
-version = "0.2.0"
+version = "0.5.0"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/86/21/288f2cea6e5ff92d26cb1350492646009e69297bee95e7751871c46d7845/oxi_nixinfra-0.2.0.tar.gz", hash = "sha256:81495ebc2978e51948a3bd2f9fadc3d3c578a3bfcda5a3762e83b13ba6b902be", size = 43195, upload-time = "2026-06-16T19:43:09.516Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/38/83/9f4bc538c3ae04162aad1ac28ab3d73b39bc71a92c2ddf12f9aa8ef79c92/oxi_nixinfra-0.5.0.tar.gz", hash = "sha256:9bec1d1ce90d768a4bc180dfad3327993971afc9cca3aaed8a6b9a68750594c9", size = 861407, upload-time = "2026-06-20T21:53:52.611Z" }
 
 [[package]]
 name = "oxitest"
-version = "0.14.0"
+version = "1.0.0b2"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/f1/f3/5c3425fe6c32ba7fe6cfaa3c9075bb40fb9a599def4efa5630f870185884/oxitest-0.14.0.tar.gz", hash = "sha256:58358406896a93dfeb2b6679b1f8366bd37510fe489a7a5f2ea4d9ca55e91965", size = 543054, upload-time = "2026-06-08T21:27:49.949Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/d8/12/39f4463361a30be1c008746bab6c5d87188d2976ab189fe5b9c7cae93362/oxitest-1.0.0b2.tar.gz", hash = "sha256:4fabcd68a7b7468fccba54864cba946452e887b26551f876cda8b87a946c58d4", size = 1393124, upload-time = "2026-06-20T13:14:32.731Z" }
 
 [[package]]
 name = "packaging"
@@ -494,8 +494,8 @@ docs = [
     { name = "mkdocs-material" },
 ]
 test = [
-    { name = "oxi-nixinfra" },
-    { name = "oxitest" },
+    { name = "oxi-nixinfra", specifier = ">=0.5.0" },
+    { name = "oxitest", specifier = ">=1.0.0b2" },
 ]
 
 [[package]]
