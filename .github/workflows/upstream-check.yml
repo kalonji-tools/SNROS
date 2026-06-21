@@ -1,0 +1,106 @@
+name: Upstream Compatibility Check
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # Every Monday at 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+concurrency:
+  group: upstream-check
+  cancel-in-progress: true
+
+jobs:
+  check-upstream:
+    name: Validate upstream deps
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: cachix/install-nix-action@v31
+      - uses: cachix/cachix-action@v17
+        with:
+          name: kalonji-tools
+          authToken: ${{ secrets.CACHIX_AUTH_TOKEN }}
+          useDaemon: false
+          extraPullNames: devenv
+      - name: Install devenv
+        run: nix profile add nixpkgs#devenv
+
+      - name: Upgrade upstream packages
+        id: upgrade
+        run: |
+          devenv shell -- uv lock \
+            --upgrade-package oxitest \
+            --upgrade-package oxi-nixinfra
+
+          if git diff --quiet uv.lock; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "### Lock file diff" >> "$GITHUB_STEP_SUMMARY"
+            git diff uv.lock >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Sync and validate imports
+        if: steps.upgrade.outputs.changed == 'true'
+        id: validate
+        run: |
+          devenv shell -- uv sync --group test
+
+          devenv shell -- python -c "
+          import importlib, sys
+          failed = []
+          for pkg in ['oxitest', 'oxi_nixinfra']:
+              try:
+                  importlib.import_module(pkg)
+                  print(f'  OK: {pkg}')
+              except ImportError as e:
+                  failed.append((pkg, str(e)))
+                  print(f'FAIL: {pkg} — {e}')
+          if failed:
+              sys.exit(1)
+          "
+
+      - name: Run test suite
+        if: steps.upgrade.outputs.changed == 'true'
+        id: tests
+        run: |
+          devenv shell -- uv run oxitest tests/ || true
+
+      - name: Open issue on failure
+        if: failure()
+        run: |
+          EXISTING=$(gh issue list \
+            --label "bug" \
+            --search "Upstream compatibility breakage" \
+            --state open \
+            --json number \
+            --jq '.[0].number // empty')
+
+          if [ -n "$EXISTING" ]; then
+            echo "Issue #$EXISTING already open — skipping."
+            exit 0
+          fi
+
+          gh issue create \
+            --title "Upstream compatibility breakage detected" \
+            --label "bug,nix,needs-triage" \
+            --body "$(cat <<'BODY'
+          ## Automated detection
+
+          The weekly upstream compatibility check found breakage after upgrading
+          oxitest and/or oxi-nixinfra to their latest compatible versions.
+
+          **Workflow run**: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+          ### What to do
+
+          1. Check the workflow logs for the specific failure (import error or test failure)
+          2. Pin the broken package to the last working version in `pyproject.toml`
+          3. Open a PR upstream if the breakage is a bug
+          BODY
+          )"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
