@@ -31,3 +31,28 @@ jobs:
         run: nix profile add nixpkgs#devenv
       - run: devenv shell -- prek run --all-files
       - run: nix flake check
+
+  test-nixos:
+    name: NixOS VM tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7
+      - uses: cachix/install-nix-action@v31
+        with:
+          enable_kvm: true
+          extra_nix_config: |
+            system-features = nixos-test benchmark big-parallel kvm
+      - uses: cachix/cachix-action@v17
+        with:
+          name: kalonji-tools
+          authToken: ${{ secrets.CACHIX_AUTH_TOKEN }}
+          useDaemon: false
+          extraPullNames: devenv
+      - name: Run NixOS VM tests
+        run: >-
+          nix build
+          .#checks.x86_64-linux.vm-minimal-boot
+          .#checks.x86_64-linux.vm-disko-format
+          .#checks.x86_64-linux.vm-ephemeral-reboot
+          --print-build-logs
