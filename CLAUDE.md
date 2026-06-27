@@ -99,6 +99,44 @@ nix flake check
 | Code review | Before merge | `superpowers:requesting-code-review` | — |
 | Post-merge debrief | If diverged | — | `diverged-from-plan` (closed PRs only) |
 
+## Tools
+
+### Worktrunk (`wt`)
+
+All branch management uses Worktrunk. Never use raw `git checkout` or `git branch` for feature work.
+
+```bash
+# Create a new worktree for a feature branch
+wt switch --create <branch>
+
+# Switch to an existing worktree
+wt switch <branch>
+```
+
+Worktrunk runs `direnv reload` on switch (`post-switch` hook), which activates the devenv shell automatically. This means all tools (`prek`, `nixfmt`, etc.) are on PATH immediately — no manual nix store path hunting.
+
+### devenv
+
+The development environment is managed by devenv. All commands assume you are inside the devenv shell.
+
+```bash
+# Enter manually (if not using wt)
+devenv shell
+
+# Load into current shell without subshell
+eval "$(devenv print-dev-env)"
+```
+
+Never install tools globally. If a tool is missing, add it to `devenv.nix`.
+
+### prek
+
+Pre-commit hooks are managed by prek (not pre-commit). Hooks run automatically on `git commit`. To run all hooks manually:
+
+```bash
+prek run --all-files
+```
+
 ## Structure
 
 - `devenv.nix` — dev environment (packages, hooks, shell)
