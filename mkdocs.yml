@@ -2,6 +2,8 @@ site_name: SNROS
 site_description: Personal NixOS configuration documentation
 repo_url: https://github.com/kalonji-tools/SNROS
 repo_name: kalonji-tools/SNROS
+docs_dir: docs/user
+site_dir: docs/site
 
 theme:
   name: material
@@ -20,11 +22,20 @@ plugins:
 markdown_extensions:
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.highlight:
       anchor_linenums: true
+  - pymdownx.inlinehilite
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - attr_list
+  - md_in_html
+  - tables
   - toc:
       permalink: true
