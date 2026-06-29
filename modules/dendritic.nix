@@ -17,5 +17,13 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     preservation.url = "github:nix-community/preservation";
+    oxitest.url = "github:kalonji-tools/oxitest";
+    oxi-nixinfra = {
+      url = "github:kalonji-tools/oxi-nixinfra";
+      inputs = {
+        nixpkgs.follows = "nixpkgs";
+        oxitest.follows = "oxitest";
+      };
+    };
   };
 }

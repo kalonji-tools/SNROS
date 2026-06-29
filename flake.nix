@@ -20,6 +20,14 @@
     };
     import-tree.url = "github:vic/import-tree";
     nixpkgs.url = "https://channels.nixos.org/nixpkgs-unstable/nixexprs.tar.xz";
+    oxi-nixinfra = {
+      url = "github:kalonji-tools/oxi-nixinfra";
+      inputs = {
+        nixpkgs.follows = "nixpkgs";
+        oxitest.follows = "oxitest";
+      };
+    };
+    oxitest.url = "github:kalonji-tools/oxitest";
     preservation.url = "github:nix-community/preservation";
   };
 }

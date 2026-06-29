@@ -82,6 +82,70 @@
               print("vm-disko-format: ALL CHECKS PASSED")
             '';
         };
+        vm-post-deploy =
+          let
+            system = "x86_64-linux";
+            python = pkgs.python312;
+            oxitest-pkg = inputs.oxitest.packages.${system}.default;
+            oxi-nixinfra-pkg = inputs.oxi-nixinfra.packages.${system}.default;
+            sitePackages = "${oxi-nixinfra-pkg}/${python.sitePackages}";
+            oxitestSitePackages = "${oxitest-pkg}/${python.sitePackages}";
+          in
+          pkgs.testers.runNixOSTest {
+            name = "post-deploy";
+            nodes.machine =
+              { pkgs, ... }:
+              {
+                system.stateVersion = "25.11";
+
+                services.openssh = {
+                  enable = true;
+                  settings = {
+                    PermitRootLogin = "yes";
+                    PermitEmptyPasswords = "yes";
+                  };
+                };
+
+                nix.enable = true;
+
+                users.users.snregales = {
+                  isNormalUser = true;
+                  uid = 1000;
+                };
+
+                users.users.root.password = "";
+
+                environment.systemPackages = with pkgs; [
+                  python312
+                  nixos-rebuild
+                ];
+
+                virtualisation = {
+                  memorySize = 2048;
+                  cores = 2;
+                  writableStoreUseTmpfs = false;
+                };
+              };
+            testScript = ''
+              machine.wait_for_unit("default.target")
+
+              # nix-daemon is socket-activated — start it explicitly so tests see it as "active"
+              machine.succeed("systemctl start nix-daemon")
+
+              # Copy project source into the VM
+              machine.copy_from_host("${inputs.self}", "/tmp/src")
+
+              # nixosTest VMs don't go through nixos-rebuild, so no generation links exist.
+              # Create one to match what every real NixOS install has.
+              machine.succeed("ln -s /run/current-system /nix/var/nix/profiles/system-1-link")
+
+              # Run oxitest with local backend
+              machine.succeed("cd /tmp/src && PYTHONPATH=${sitePackages}:${oxitestSitePackages} python3 -m oxitest run tests/hosts/ 2>&1")
+
+              print("vm-post-deploy: ALL CHECKS PASSED")
+            '';
+          };
+
         vm-ephemeral-reboot = pkgs.testers.runNixOSTest {
           name = "ephemeral-reboot";
           nodes.machine =
